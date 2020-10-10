@@ -1,0 +1,45 @@
+cards:
+  - entities:
+      - entity: sensor.time
+        name: Ora attuale
+      - entity: input_datetime.fascia_1_lun_soggiorno_inizio
+        name: Orario inizio fascia 1
+      - entity: input_datetime.fascia_1_lun_soggiorno_fine
+        name: Orario fine fascia 1
+      - entity: input_boolean.fascia_1_soggiorno_lunedi
+        name: On/Off Fascia 1 Sogg.
+      - entity: input_datetime.fascia_2_lun_soggiorno_inizio
+        name: Orario inizio fascia 2
+      - entity: input_datetime.fascia_2_lun_soggiorno_fine
+        name: Orario fine fascia 2
+      - entity: input_boolean.fascia_2_soggiorno_lunedi
+        name: On/Off Fascia 2 Sogg.
+      - entity: input_datetime.fascia_3_lun_soggiorno_inizio
+        name: Orario inizio fascia 3
+      - entity: input_datetime.fascia_3_lun_soggiorno_fine
+        name: Orario fine fascia 3
+      - entity: input_boolean.fascia_3_soggiorno_lunedi
+        name: On/Off Fascia 3 Sogg.
+      - entity: input_datetime.fascia_4_lun_soggiorno_inizio
+        name: Orario inizio fascia 4
+      - entity: input_datetime.fascia_4_lun_soggiorno_fine
+        name: Orario fine fascia 4
+      - entity: input_boolean.fascia_4_soggiorno_lunedi
+        name: On/Off Fascia 4 Sogg.
+      - entity: script.script_reset_lunedi_soggiorno
+        icon: 'mdi:backspace-reverse-outline'
+        name: Reset Orari fasce
+    show_header_toggle: false
+    theme: ios-dark-mode-dark-green
+    title: Prog. oraria soggiorno
+    type: entities
+  - icon: 'mdi:thermostat'
+    name: Home termostati
+    styles:
+      card:
+        - height: 100px
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace-iphone/termostati
+    type: 'custom:button-card'
+type: vertical-stack

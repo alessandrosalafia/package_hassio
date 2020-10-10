@@ -1,0 +1,198 @@
+input_boolean:
+
+#### lunedì #####
+
+  fascia_1_camera_lunedi:
+    name: Fascia 1 Camera Lunedì
+
+  fascia_2_camera_lunedi:
+    name: Fascia 2 Camera Lunedì
+    
+  fascia_3_camera_lunedi:
+    name: Fascia 3 Camera Lunedì
+
+  fascia_4_camera_lunedi:
+    name: Fascia 4 Camera Lunedì
+    
+#### martedì #####
+
+  fascia_1_camera_martedi:
+    name: Fascia 1 Camera Martedì
+
+  fascia_2_camera_martedi:
+    name: Fascia 2 Camera Martedì
+    
+  fascia_3_camera_martedi:
+    name: Fascia 3 Camera Martedì
+
+  fascia_4_camera_martedi:
+    name: Fascia 4 Camera Martedì
+    
+#### mercoledì #####
+
+  fascia_1_camera_mercoledi:
+    name: Fascia 1 Camera Mercoledì
+
+  fascia_2_camera_mercoledi:
+    name: Fascia 2 Camera Mercoledì
+    
+  fascia_3_camera_mercoledi:
+    name: Fascia 3 Camera Mercoledì
+
+  fascia_4_camera_mercoledi:
+    name: Fascia 4 Camera Mercoledì
+    
+#### giovedì #####
+
+  fascia_1_camera_giovedi:
+    name: Fascia 1 Camera Giovedì
+
+  fascia_2_camera_giovedi:
+    name: Fascia 2 Camera Giovedì
+    
+  fascia_3_camera_giovedi:
+    name: Fascia 3 Camera Giovedì
+
+  fascia_4_camera_giovedi:
+    name: Fascia 4 Camera Giovedì
+    
+#### venerdì #####
+
+  fascia_1_camera_venerdi:
+    name: Fascia 1 Camera Venerdì
+
+  fascia_2_camera_venerdi:
+    name: Fascia 2 Camera Venerdì
+    
+  fascia_3_camera_venerdi:
+    name: Fascia 3 Camera Venerdì
+
+  fascia_4_camera_venerdi:
+    name: Fascia 4 Camera Venerdì
+    
+#### sabato #####
+
+  fascia_1_camera_sabato:
+    name: Fascia 1 Camera Sabato
+
+  fascia_2_camera_sabato:
+    name: Fascia 2 Camera Sabato
+    
+  fascia_3_camera_sabato:
+    name: Fascia 3 Camera Sabato
+
+  fascia_4_camera_sabato:
+    name: Fascia 4 Camera Sabato
+    
+#### domenica #####
+
+  fascia_1_camera_domenica:
+    name: Fascia 1 Camera Domenica
+
+  fascia_2_camera_domenica:
+    name: Fascia 2 Camera Domenica
+    
+  fascia_3_camera_domenica:
+    name: Fascia 3 Camera Domenica
+
+  fascia_4_camera_domenica:
+    name: Fascia 4 Camera Domenica
+    
+#### lunedì #####
+
+  fascia_1_soggiorno_lunedi:
+    name: Fascia 1 Soggiorno Lunedì
+
+  fascia_2_soggiorno_lunedi:
+    name: Fascia 2 Soggiorno Lunedì
+    
+  fascia_3_soggiorno_lunedi:
+    name: Fascia 3 Soggiorno Lunedì
+
+  fascia_4_soggiorno_lunedi:
+    name: Fascia 4 Soggiorno Lunedì
+    
+#### martedì #####
+
+  fascia_1_soggiorno_martedi:
+    name: Fascia 1 Soggiorno Martedì
+
+  fascia_2_soggiorno_martedi:
+    name: Fascia 2 Soggiorno Martedì
+    
+  fascia_3_soggiorno_martedi:
+    name: Fascia 3 Soggiorno Martedì
+
+  fascia_4_soggiorno_martedi:
+    name: Fascia 4 Soggiorno Martedì
+    
+#### mercoledì #####
+
+  fascia_1_soggiorno_mercoledi:
+    name: Fascia 1 Soggiorno Mercoledì
+
+  fascia_2_soggiorno_mercoledi:
+    name: Fascia 2 Soggiorno Mercoledì
+    
+  fascia_3_soggiorno_mercoledi:
+    name: Fascia 3 Soggiorno Mercoledì
+
+  fascia_4_soggiorno_mercoledi:
+    name: Fascia 4 Soggiorno Mercoledì
+    
+#### giovedì #####
+
+  fascia_1_soggiorno_giovedi:
+    name: Fascia 1 Soggiorno Giovedì
+
+  fascia_2_soggiorno_giovedi:
+    name: Fascia 2 Soggiorno Giovedì
+    
+  fascia_3_soggiorno_giovedi:
+    name: Fascia 3 Soggiorno Giovedì
+
+  fascia_4_soggiorno_giovedi:
+    name: Fascia 4 Soggiorno Giovedì
+    
+#### venerdì #####
+
+  fascia_1_soggiorno_venerdi:
+    name: Fascia 1 Soggiorno Venerdì
+
+  fascia_2_soggiorno_venerdi:
+    name: Fascia 2 Soggiorno Venerdì
+    
+  fascia_3_soggiorno_venerdi:
+    name: Fascia 3 Soggiorno Venerdì
+
+  fascia_4_soggiorno_venerdi:
+    name: Fascia 4 Soggiorno Venerdì
+    
+#### sabato #####
+
+  fascia_1_soggiorno_sabato:
+    name: Fascia 1 Soggiorno Sabato
+
+  fascia_2_soggiorno_sabato:
+    name: Fascia 2 Soggiorno Sabato
+    
+  fascia_3_soggiorno_sabato:
+    name: Fascia 3 Soggiorno Sabato
+
+  fascia_4_soggiorno_sabato:
+    name: Fascia 4 Soggiorno Sabato
+    
+#### domenica #####
+
+  fascia_1_soggiorno_domenica:
+    name: Fascia 1 Soggiorno Domenica
+
+  fascia_2_soggiorno_domenica:
+    name: Fascia 2 Soggiorno Domenica
+    
+  fascia_3_soggiorno_domenica:
+    name: Fascia 3 Soggiorno Domenica
+
+  fascia_4_soggiorno_domenica:
+    name: Fascia 4 Soggiorno Domenica
+    

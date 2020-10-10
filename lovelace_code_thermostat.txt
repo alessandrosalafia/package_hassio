@@ -1,0 +1,76 @@
+cards:
+  - entity: climate.termostato_camera
+    name: Termostato camera
+    type: thermostat
+  - cards:
+      - icon: 'mdi:camera-timer'
+        name: Program. lunedì
+        styles:
+          card:
+            - height: 80px
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace-iphone/lunedi-camera
+        type: 'custom:button-card'
+      - icon: 'mdi:camera-timer'
+        name: Program. martedì
+        styles:
+          card:
+            - height: 80px
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace-iphone/martedi-camera
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - icon: 'mdi:camera-timer'
+        name: Program. mercoledì
+        styles:
+          card:
+            - height: 80px
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace-iphone/mercoledi-camera
+        type: 'custom:button-card'
+      - icon: 'mdi:camera-timer'
+        name: Program. giovedì
+        styles:
+          card:
+            - height: 80px
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace-iphone/giovedi-camera
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - cards:
+      - icon: 'mdi:camera-timer'
+        name: Program. venerdì
+        styles:
+          card:
+            - height: 80px
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace-iphone/venerdi-camera
+        type: 'custom:button-card'
+      - icon: 'mdi:camera-timer'
+        name: Program. sabato
+        styles:
+          card:
+            - height: 80px
+        tap_action:
+          action: navigate
+          navigation_path: /lovelace-iphone/sabato-camera
+        type: 'custom:button-card'
+    type: horizontal-stack
+  - icon: 'mdi:camera-timer'
+    name: Program. domenica
+    styles:
+      card:
+        - height: 100px
+    tap_action:
+      action: navigate
+      navigation_path: /lovelace-iphone/domenica-camera
+    type: 'custom:button-card'
+  - entity: sensor.rssi_termostato_camera
+    type: entity
+type: vertical-stack

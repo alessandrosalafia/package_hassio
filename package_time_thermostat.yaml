@@ -1,0 +1,3408 @@
+##############
+##time slots##
+##############
+input_datetime:
+  fascia_1_lun_camera_inizio:
+    name: Fascia 1 lunedì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_lun_camera_fine:
+    name: Fascia 1 lunedì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_lun_camera_inizio:
+    name: Fascia 2 lunedì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_lun_camera_fine:
+    name: Fascia 2 lunedì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_lun_camera_inizio:
+    name: Fascia 3 lunedì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_lun_camera_fine:
+    name: Fascia 2 lunedì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_lun_camera_inizio:
+    name: Fascia 4 lunedì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_lun_camera_fine:
+    name: Fascia 4 lunedì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_lun_soggiorno_inizio:
+    name: Fascia 1 lunedì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_lun_soggiorno_fine:
+    name: Fascia 1 lunedì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_lun_soggiorno_inizio:
+    name: Fascia 2 lunedì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_lun_soggiorno_fine:
+    name: Fascia 2 lunedì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_lun_soggiorno_inizio:
+    name: Fascia 3 lunedì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_lun_soggiorno_fine:
+    name: Fascia 3 lunedì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_lun_soggiorno_inizio:
+    name: Fascia 4 lunedì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_lun_soggiorno_fine:
+    name: Fascia 4 lunedì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_mar_camera_inizio:
+    name: Fascia 1 martedi Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_mar_camera_fine:
+    name: Fascia 1 martedi Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_mar_camera_inizio:
+    name: Fascia 2 martedi Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_mar_camera_fine:
+    name: Fascia 2 martedi Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_mar_camera_inizio:
+    name: Fascia 3 martedi Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_mar_camera_fine:
+    name: Fascia 2 martedi Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_mar_camera_inizio:
+    name: Fascia 4 martedi Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_mar_camera_fine:
+    name: Fascia 4 martedi Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_mar_soggiorno_inizio:
+    name: Fascia 1 martedi soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_mar_soggiorno_fine:
+    name: Fascia 1 martedi soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_mar_soggiorno_inizio:
+    name: Fascia 2 martedi soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_mar_soggiorno_fine:
+    name: Fascia 2 martedi soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_mar_soggiorno_inizio:
+    name: Fascia 3 martedi soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_mar_soggiorno_fine:
+    name: Fascia 3 martedi soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_mar_soggiorno_inizio:
+    name: Fascia 4 martedi soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_mar_soggiorno_fine:
+    name: Fascia 4 martedi soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_mer_camera_inizio:
+    name: Fascia 1 mercoledì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_mer_camera_fine:
+    name: Fascia 1 mercoledì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_mer_camera_inizio:
+    name: Fascia 2 mercoledì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_mer_camera_fine:
+    name: Fascia 2 mercoledì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_mer_camera_inizio:
+    name: Fascia 3 mercoledì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_mer_camera_fine:
+    name: Fascia 2 mercoledì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_mer_camera_inizio:
+    name: Fascia 4 mercoledì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_mer_camera_fine:
+    name: Fascia 4 mercoledì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_mer_soggiorno_inizio:
+    name: Fascia 1 mercoledì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_mer_soggiorno_fine:
+    name: Fascia 1 mercoledì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_mer_soggiorno_inizio:
+    name: Fascia 2 mercoledì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_mer_soggiorno_fine:
+    name: Fascia 2 mercoledì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_mer_soggiorno_inizio:
+    name: Fascia 3 mercoledì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_mer_soggiorno_fine:
+    name: Fascia 3 mercoledì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_mer_soggiorno_inizio:
+    name: Fascia 4 mercoledì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_mer_soggiorno_fine:
+    name: Fascia 4 mercoledì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_gio_camera_inizio:
+    name: Fascia 1 giovedì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_gio_camera_fine:
+    name: Fascia 1 giovedì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_gio_camera_inizio:
+    name: Fascia 2 giovedì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_gio_camera_fine:
+    name: Fascia 2 giovedì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_gio_camera_inizio:
+    name: Fascia 3 giovedì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_gio_camera_fine:
+    name: Fascia 2 giovedì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_gio_camera_inizio:
+    name: Fascia 4 giovedì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_gio_camera_fine:
+    name: Fascia 4 giovedì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_gio_soggiorno_inizio:
+    name: Fascia 1 giovedì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_gio_soggiorno_fine:
+    name: Fascia 1 giovedì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_gio_soggiorno_inizio:
+    name: Fascia 2 giovedì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_gio_soggiorno_fine:
+    name: Fascia 2 giovedì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_gio_soggiorno_inizio:
+    name: Fascia 3 giovedì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_gio_soggiorno_fine:
+    name: Fascia 3 giovedì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_gio_soggiorno_inizio:
+    name: Fascia 4 giovedì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_gio_soggiorno_fine:
+    name: Fascia 4 giovedì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_ven_camera_inizio:
+    name: Fascia 1 venerdì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_ven_camera_fine:
+    name: Fascia 1 venerdì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_ven_camera_inizio:
+    name: Fascia 2 venerdì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_ven_camera_fine:
+    name: Fascia 2 venerdì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_ven_camera_inizio:
+    name: Fascia 3 venerdì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_ven_camera_fine:
+    name: Fascia 2 venerdì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_ven_camera_inizio:
+    name: Fascia 4 venerdì Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_ven_camera_fine:
+    name: Fascia 4 venerdì Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_ven_soggiorno_inizio:
+    name: Fascia 1 venerdì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_ven_soggiorno_fine:
+    name: Fascia 1 venerdì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_ven_soggiorno_inizio:
+    name: Fascia 2 venerdì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_ven_soggiorno_fine:
+    name: Fascia 2 venerdì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_ven_soggiorno_inizio:
+    name: Fascia 3 venerdì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_ven_soggiorno_fine:
+    name: Fascia 3 venerdì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_ven_soggiorno_inizio:
+    name: Fascia 4 venerdì soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_ven_soggiorno_fine:
+    name: Fascia 4 venerdì soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_sab_camera_inizio:
+    name: Fascia 1 sabato Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_sab_camera_fine:
+    name: Fascia 1 sabato Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_sab_camera_inizio:
+    name: Fascia 2 sabato Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_sab_camera_fine:
+    name: Fascia 2 sabato Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_sab_camera_inizio:
+    name: Fascia 3 sabato Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_sab_camera_fine:
+    name: Fascia 2 sabato Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_sab_camera_inizio:
+    name: Fascia 4 sabato Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_sab_camera_fine:
+    name: Fascia 4 sabato Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_sab_soggiorno_inizio:
+    name: Fascia 1 sabato soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_sab_soggiorno_fine:
+    name: Fascia 1 sabato soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_sab_soggiorno_inizio:
+    name: Fascia 2 sabato soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_sab_soggiorno_fine:
+    name: Fascia 2 sabato soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_sab_soggiorno_inizio:
+    name: Fascia 3 sabato soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_sab_soggiorno_fine:
+    name: Fascia 3 sabato soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_sab_soggiorno_inizio:
+    name: Fascia 4 sabato soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_sab_soggiorno_fine:
+    name: Fascia 4 sabato soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_dom_camera_inizio:
+    name: Fascia 1 domenica Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_dom_camera_fine:
+    name: Fascia 1 domenica Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_dom_camera_inizio:
+    name: Fascia 2 domenica Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_dom_camera_fine:
+    name: Fascia 2 domenica Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_dom_camera_inizio:
+    name: Fascia 3 domenica Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_dom_camera_fine:
+    name: Fascia 2 domenica Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_dom_camera_inizio:
+    name: Fascia 4 domenica Camera inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_dom_camera_fine:
+    name: Fascia 4 domenica Camera fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_dom_soggiorno_inizio:
+    name: Fascia 1 domenica soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_1_dom_soggiorno_fine:
+    name: Fascia 1 domenica soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_dom_soggiorno_inizio:
+    name: Fascia 2 domenica soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_2_dom_soggiorno_fine:
+    name: Fascia 2 domenica soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_dom_soggiorno_inizio:
+    name: Fascia 3 domenica soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_3_dom_soggiorno_fine:
+    name: Fascia 3 domenica soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_dom_soggiorno_inizio:
+    name: Fascia 4 domenica soggiorno inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  fascia_4_dom_soggiorno_fine:
+    name: Fascia 4 domenica soggiorno fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+
+input_number:
+#Set frequenza Speedtest
+  frequenza_speedtest:
+    name: Frequenza Speedtest
+    icon: mdi:time
+    min: 0
+    max: 24
+    step: 1
+
+#######################
+##setpoint time slots##
+#######################
+
+
+#Sepoint fascia 1 camera
+  setpoint_fascia_1_camera_lunedi:
+    name: Set-point Camera fascia 1 Lun.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 camera
+  setpoint_fascia_2_camera_lunedi:
+    name: Set-point Camera fascia 2 Lun.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 camera
+  setpoint_fascia_3_camera_lunedi:
+    name: Set-point Camera fascia 3 Lun.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 camera
+  setpoint_fascia_4_camera_lunedi:
+    name: Set-point Camera fascia 4 Lun.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 camera
+  setpoint_fascia_1_camera_martedi:
+    name: Set-point Camera fascia 1 Mar.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 camera
+  setpoint_fascia_2_camera_martedi:
+    name: Set-point Camera fascia 2 Mar.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 camera
+  setpoint_fascia_3_camera_martedi:
+    name: Set-point Camera fascia 3 Mar.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 camera
+  setpoint_fascia_4_camera_martedi:
+    name: Set-point Camera fascia 4 Mar.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 camera
+  setpoint_fascia_1_camera_mercoledi:
+    name: Set-point Camera fascia 1 Mer.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 camera
+  setpoint_fascia_2_camera_mercoledi:
+    name: Set-point Camera fascia 2 Mer.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 camera
+  setpoint_fascia_3_camera_mercoledi:
+    name: Set-point Camera fascia 3 Mer.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 camera
+  setpoint_fascia_4_camera_mercoledi:
+    name: Set-point Camera fascia 4 Mer.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 camera
+  setpoint_fascia_1_camera_giovedi:
+    name: Set-point Camera fascia 1 Gio.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 camera
+  setpoint_fascia_2_camera_giovedi:
+    name: Set-point Camera fascia 2 Gio.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 camera
+  setpoint_fascia_3_camera_giovedi:
+    name: Set-point Camera fascia 3 Gio.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 camera
+  setpoint_fascia_4_camera_giovedi:
+    name: Set-point Camera fascia 4 Gio.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 camera
+  setpoint_fascia_1_camera_venerdi:
+    name: Set-point Camera fascia 1 Ven.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 camera
+  setpoint_fascia_2_camera_venerdi:
+    name: Set-point Camera fascia 2 Ven.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 camera
+  setpoint_fascia_3_camera_venerdi:
+    name: Set-point Camera fascia 3 Ven.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 camera
+  setpoint_fascia_4_camera_venerdi:
+    name: Set-point Camera fascia 4 Ven.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 camera
+  setpoint_fascia_1_camera_sabato:
+    name: Set-point Camera fascia 1 Sab.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 camera
+  setpoint_fascia_2_camera_sabato:
+    name: Set-point Camera fascia 2 Sab.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 camera
+  setpoint_fascia_3_camera_sabato:
+    name: Set-point Camera fascia 3 Sab.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 camera
+  setpoint_fascia_4_camera_sabato:
+    name: Set-point Camera fascia 4 Sab.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 camera
+  setpoint_fascia_1_camera_domenica:
+    name: Set-point Camera fascia 1 Dom.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 camera
+  setpoint_fascia_2_camera_domenica:
+    name: Set-point Camera fascia 2 Dom.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 camera
+  setpoint_fascia_3_camera_domenica:
+    name: Set-point Camera fascia 3 Dom.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 camera
+  setpoint_fascia_4_camera_domenica:
+    name: Set-point Camera fascia 4 Dom.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+    
+#soggiorno#
+
+#Sepoint fascia 1 soggiorno
+  setpoint_fascia_1_soggiorno_lunedi:
+    name: Set-point soggiorno fascia 1 Lun.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno
+  setpoint_fascia_2_soggiorno_lunedi:
+    name: Set-point soggiorno fascia 2 Lun.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno
+  setpoint_fascia_3_soggiorno_lunedi:
+    name: Set-point soggiorno fascia 3 Lun.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno
+  setpoint_fascia_4_soggiorno_lunedi:
+    name: Set-point soggiorno fascia 4 Lun.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno
+  setpoint_fascia_1_soggiorno_martedi:
+    name: Set-point soggiorno fascia 1 Mar.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno
+  setpoint_fascia_2_soggiorno_martedi:
+    name: Set-point soggiorno fascia 2 Mar.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno
+  setpoint_fascia_3_soggiorno_martedi:
+    name: Set-point soggiorno fascia 3 Mar.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno
+  setpoint_fascia_4_soggiorno_martedi:
+    name: Set-point soggiorno fascia 4 Mar.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno
+  setpoint_fascia_1_soggiorno_mercoledi:
+    name: Set-point soggiorno fascia 1 Mer.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno
+  setpoint_fascia_2_soggiorno_mercoledi:
+    name: Set-point soggiorno fascia 2 Mer.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno
+  setpoint_fascia_3_soggiorno_mercoledi:
+    name: Set-point soggiorno fascia 3 Mer.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno
+  setpoint_fascia_4_soggiorno_mercoledi:
+    name: Set-point soggiorno fascia 4 Mer.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno
+  setpoint_fascia_1_soggiorno_giovedi:
+    name: Set-point soggiorno fascia 1 Gio.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno
+  setpoint_fascia_2_soggiorno_giovedi:
+    name: Set-point soggiorno fascia 2 Gio.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno
+  setpoint_fascia_3_soggiorno_giovedi:
+    name: Set-point soggiorno fascia 3 Gio.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno
+  setpoint_fascia_4_soggiorno_giovedi:
+    name: Set-point Soggiorno fascia 4 Gio.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno
+  setpoint_fascia_1_soggiorno_venerdi:
+    name: Set-point Soggiorno fascia 1 Ven.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno
+  setpoint_fascia_2_soggiorno_venerdi:
+    name: Set-point Soggiorno fascia 2 Ven.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno
+  setpoint_fascia_3_soggiorno_venerdi:
+    name: Set-point Soggiorno fascia 3 Ven.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno
+  setpoint_fascia_4_soggiorno_venerdi:
+    name: Set-point Soggiorno fascia 4 Ven.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno
+  setpoint_fascia_1_soggiorno_sabato:
+    name: Set-point Soggiorno fascia 1 Sab.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno
+  setpoint_fascia_2_soggiorno_sabato:
+    name: Set-point Soggiorno fascia 2 Sab.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno
+  setpoint_fascia_3_soggiorno_sabato:
+    name: Set-point Soggiorno fascia 3 Sab.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno
+  setpoint_fascia_4_soggiorno_sabato:
+    name: Set-point Soggiorno fascia 4 Sab.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno
+  setpoint_fascia_1_soggiorno_domenica:
+    name: Set-point Soggiorno fascia 1 Dom.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno
+  setpoint_fascia_2_soggiorno_domenica:
+    name: Set-point Soggiorno fascia 2 Dom.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno
+  setpoint_fascia_3_soggiorno_domenica:
+    name: Set-point Soggiorno fascia 3 Dom.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno
+  setpoint_fascia_4_soggiorno_domenica:
+    name: Set-point Soggiorno fascia 4 Dom.
+    icon: mdi:thermostat
+    min: 15
+    max: 30
+    step: 0.5
+
+    
+#####################
+##scrpt living room##
+#####################
+
+script:
+  script_reset_lunedi_camera:
+    alias: Reset_timer_lunedi_camera
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_lun_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_lun_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_lun_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_lun_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_lun_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_lun_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_lun_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_lun_camera_fine
+          time: 00:00:00
+  script_reset_martedi_camera:
+    alias: Reset_timer_martedi_camera
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_mar_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_mar_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_mar_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_mar_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_mar_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_mar_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_mar_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_mar_camera_fine
+          time: 00:00:00
+  script_reset_mercoledi_camera:
+    alias: Reset_timer_mercoledi_camera
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_mer_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_mer_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_mer_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_mer_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_mer_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_mer_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_mer_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_mer_camera_fine
+          time: 00:00:00
+  script_reset_giovedi_camera:
+    alias: Reset_timer_giovedi_camera
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_gio_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_gio_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_gio_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_gio_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_gio_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_gio_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_gio_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_gio_camera_fine
+          time: 00:00:00
+  script_reset_venerdi_camera:
+    alias: Reset_timer_venerdi_camera
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_ven_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_ven_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_ven_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_ven_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_ven_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_ven_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_ven_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_ven_camera_fine
+          time: 00:00:00
+  script_reset_sabato_camera:
+    alias: Reset_timer_sabato_camera
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_sab_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_sab_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_sab_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_sab_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_sab_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_sab_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_sab_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_sab_camera_fine
+          time: 00:00:00
+  script_reset_domenica_camera:
+    alias: Reset_timer_domenica_camera
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_dom_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_dom_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_dom_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_dom_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_dom_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_dom_camera_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_dom_camera_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_dom_camera_fine
+          time: 00:00:00
+###############
+##script room##
+###############
+  script_reset_lunedi_soggiorno:
+    alias: Reset_timer_lunedi_soggiorno
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+         entity_id: input_datetime.fascia_1_lun_soggiorno_inizio
+         time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_lun_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_lun_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_lun_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_lun_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_lun_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_lun_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_lun_soggiorno_fine
+          time: 00:00:00
+  script_reset_martedi_soggiorno:
+    alias: Reset_timer_martedi_soggiorno
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_mar_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_mar_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_mar_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_mar_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_mar_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_mar_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_mar_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_mar_soggiorno_fine
+          time: 00:00:00
+  script_reset_mercoledi_soggiorno:
+    alias: Reset_timer_mercoledi_soggiorno
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_mer_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_mer_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_mer_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_mer_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_mer_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_mer_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_mer_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_mer_soggiorno_fine
+          time: 00:00:00
+  script_reset_giovedi_soggiorno:
+    alias: Reset_timer_giovedi_soggiorno
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_gio_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_gio_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_gio_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_gio_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_gio_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_gio_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_gio_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_gio_soggiorno_fine
+          time: 00:00:00
+  script_reset_venerdi_soggiorno:
+    alias: Rese_timer_venerdi_soggiorno
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_ven_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_ven_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_ven_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_ven_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_ven_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_ven_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_ven_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data: 
+          entity_id: input_datetime.fascia_4_ven_soggiorno_fine
+          time: 00:00:00
+  script_reset_sabato_soggiorno:
+    alias: Reset_timer_sabato_soggiorno
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_sab_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_sab_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_sab_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_sab_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_sab_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_sab_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_sab_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_sab_soggiorno_fine
+          time: 00:00:00
+  script_reset_domenica_soggiorno:
+    alias: Reset_timer_domenica_soggiorno
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_dom_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_1_dom_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_dom_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_2_dom_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_dom_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_3_dom_soggiorno_fine
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_dom_soggiorno_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.fascia_4_dom_soggiorno_fine
+          time: 00:00:00
+
+######################################
+# Heating day weekly#
+######################################  
+  
+input_boolean:
+
+  monday:
+    name: Lun
+
+  tuesday:
+    name: Mar
+
+  wednesday:
+    name: Mer
+
+  thursday:
+    name: Gio
+
+  friday:
+    name: Ven
+
+  saturday:
+    name: Sab
+
+  sunday:
+    name: Dom 
+
+
+###########################
+#### automation camera ####
+###########################
+
+automation:
+- id: '159356426875'
+  alias: 'ON/OFF riscaldamento Lunedi fascia 1-2-3-4 Camera'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_lun_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_lun_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_lun_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.monday
+      state: 'on'
+    - condition: time
+      weekday: mon
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_lun_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_lunedi
+               state: 'on'               
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_lunedi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_lunedi
+               state: 'on'               
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_lun_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_lunedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_lunedi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_lunedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_lun_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_lunedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_lunedi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_lunedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_lunedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_lunedi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_lunedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426876'
+  alias: 'ON/OFF riscaldamento Martedì fascia 1-2-3-4 Camera'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mar_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mar_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mar_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.tuesday
+      state: 'on'
+    - condition: time
+      weekday: tue
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mar_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_martedi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mar_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_martedi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mar_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_martedi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_martedi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426877'
+  alias: 'ON/OFF riscaldamento Mercoledì fascia 1-2-3-4 Camera'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mer_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mer_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mer_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.wednesday
+      state: 'on'
+    - condition: time
+      weekday: wed
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mer_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_mercoledi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mer_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_mercoledi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mer_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_mercoledi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_mercoledi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426878'
+  alias: 'ON/OFF riscaldamento Giovedì fascia 1-2-3-4 Camera'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_gio_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_gio_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_gio_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.thursday
+      state: 'on'
+    - condition: time
+      weekday: thu
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_gio_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_giovedi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_gio_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_giovedi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_gio_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_giovedi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_giovedi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426879'
+  alias: 'ON/OFF riscaldamento Venerdì fascia 1-2-3-4 Camera'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_ven_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_ven_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_ven_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.friday
+      state: 'on'
+    - condition: time
+      weekday: fri
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_ven_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_venerdi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_ven_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_venerdi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_ven_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_venerdi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_venerdi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426880'
+  alias: 'ON/OFF riscaldamento Sabato fascia 1-2-3-4 Camera'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_sab_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_sab_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_sab_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.saturday
+      state: 'on'
+    - condition: time
+      weekday: sat
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_sab_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_sabato') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_sab_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_sabato') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_sab_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_sabato') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_sabato') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426881'
+  alias: 'ON/OFF riscaldamento Domenica fascia 1-2-3-4 Camera'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_dom_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_dom_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.sunday
+      state: 'on'
+    - condition: time
+      weekday: sun
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_dom_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_domenica') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_camera_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_camera_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_domenica') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_dom_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_domenica') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_camera_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_camera_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_camera 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_domenica') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_camera_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_camera
+             - data:
+                 message: Termostato camera spento
+               service: notify.mobile_app_iphone_slx
+               
+##############################
+#### automation soggiorno ####
+##############################
+
+- id: '159356426882'
+  alias: 'ON/OFF riscaldamento Lunedi fascia 1-2-3-4 soggiorno'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_lun_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_lun_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_lun_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.monday
+      state: 'on'
+    - condition: time
+      weekday: mon
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_lun_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_lunedi
+               state: 'on'               
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_lunedi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_lunedi
+               state: 'on'               
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_lun_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_lunedi
+               state: 'on'               
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_lunedi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_lunedi
+               state: 'on'               
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_lun_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_lunedi
+               state: 'on'               
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_lunedi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_lunedi
+               state: 'on'               
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_lunedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_lunedi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_lunedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426883'
+  alias: 'ON/OFF riscaldamento Martedì fascia 1-2-3-4 soggiorno'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mar_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mar_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mar_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.tuesday
+      state: 'on'
+    - condition: time
+      weekday: tue
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mar_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_martedi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mar_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_martedi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mar_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_martedi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_martedi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_martedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426884'
+  alias: 'ON/OFF riscaldamento Mercoledì fascia 1-2-3-4 soggiorno'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mer_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mer_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mer_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.wednesday
+      state: 'on'
+    - condition: time
+      weekday: wed
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mer_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_mercoledi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mer_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_mercoledi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mer_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_mercoledi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_mercoledi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_mercoledi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426885'
+  alias: 'ON/OFF riscaldamento Giovedì fascia 1-2-3-4 soggiorno'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_gio_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_gio_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_gio_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.thursday
+      state: 'on'
+    - condition: time
+      weekday: thu
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_gio_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_giovedi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_gio_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_giovedi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_gio_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_giovedi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_giovedi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_giovedi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426886'
+  alias: 'ON/OFF riscaldamento Venerdì fascia 1-2-3-4 soggiorno'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_ven_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_ven_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_ven_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.friday
+      state: 'on'
+    - condition: time
+      weekday: fri
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_ven_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_venerdi') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_ven_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_venerdi') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_ven_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_venerdi') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_venerdi
+               state: 'on'
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_venerdi') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_venerdi
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426887'
+  alias: 'ON/OFF riscaldamento Sabato fascia 1-2-3-4 soggiorno'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_sab_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_sab_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_sab_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.saturday
+      state: 'on'
+    - condition: time
+      weekday: sat
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_sab_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_sabato') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_sab_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_sabato') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_sab_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_sabato') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_sabato') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_sabato
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+- id: '159356426888'
+  alias: 'ON/OFF riscaldamento Domenica fascia 1-2-3-4 soggiorno'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_dom_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_dom_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.sunday
+      state: 'on'
+    - condition: time
+      weekday: sun
+  action:
+    - choose:
+       # Se rilevata ora attivazione fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_dom_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_domenica') }}"
+       # Se rilevata ora spegnimento fascia 1#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_1_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_1_soggiorno_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_domenica') }}"
+       # Se rilevata ora spegnimento fascia 2#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_2_soggiorno_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_dom_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_domenica') }}"
+       # Se rilevata ora spegnimento fascia 3#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_3_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_3_soggiorno_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+       # Se rilevata ora attivazione fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_soggiorno_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_on
+               entity_id: climate.termostato_soggiorno 
+             - service: climate.set_temperature
+               entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_domenica') }}"
+       # Se rilevata ora spegnimento fascia 4#
+         - conditions:
+             - condition: template
+               value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+             - condition: state
+               entity_id: input_boolean.fascia_4_soggiorno_domenica
+               state: 'on'
+           sequence:
+             - service: climate.turn_off
+               entity_id: climate.termostato_soggiorno
+             - data:
+                 message: Termostato soggiorno spento
+               service: notify.mobile_app_iphone_slx
+
+
