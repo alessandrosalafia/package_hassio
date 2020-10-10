@@ -1,0 +1,514 @@
+
+homeassistant:
+  customize:
+  
+    package.node_anchors:
+      customize: &customize
+        package: 'multipresa'
+        author: 'Alessandro-Salafia'
+        version: '1.2'
+        
+      expose: &expose
+        <<: *customize
+        haaska_hidden: false
+        homebridge_hidden: false
+
+    input_datetime.multi1_sw1_on:
+      friendly_name: "Presa 1 on"
+      icon: mdi:clock-start
+    input_datetime.multi1_sw1_off:
+      friendly_name: "Presa 1 off"
+      icon: mdi:clock-end
+    input_datetime.multi1_sw2_on:
+      friendly_name: "Presa 2 on"
+      icon: mdi:clock-start
+    input_datetime.multi1_sw2_off:
+      friendly_name: "Presa 2 off"
+      icon: mdi:clock-end
+    input_datetime.multi1_sw3_on:
+      friendly_name: "Presa 3 on"
+      icon: mdi:clock-start
+    input_datetime.multi1_sw3_off:
+      friendly_name: "Presa 3 off"
+      icon: mdi:clock-end
+    input_datetime.multi1_sw4_on:
+      friendly_name: "Presa 4 on"
+      icon: mdi:clock-start
+    input_datetime.multi1_sw4_off:
+      friendly_name: "Presa 4 off"
+      icon: mdi:clock-end
+    input_datetime.multi1_usb_on:
+      friendly_name: "Prese USB on"
+      icon: mdi:clock-start
+    input_datetime.multi1_usb_off:
+      friendly_name: "Prese USB off"
+      icon: mdi:clock-end
+
+
+    switch.multipresa1_power:
+      friendly_name: "Power"
+      icon: mdi:power
+
+    # input_boolean.att_progr_presa:
+      # friendly_name: "Programmazione"
+      
+##group###
+
+group:
+  multipresa:
+    name: Multipresa WiFi
+    entities:
+      - switch.presa_1
+      - switch.presa_2
+      - switch.presa_3
+      - switch.presa_4
+      - switch.presa_usb
+      - input_boolean.att_progr_presa
+      - switch.multipresa1_power
+      - input_datetime.multi1_sw1_on
+      - input_datetime.multi1_sw1_off
+      - input_datetime.multi1_sw2_on
+      - input_datetime.multi1_sw2_off
+      - input_datetime.multi1_sw3_on
+      - input_datetime.multi1_sw3_off
+      - input_datetime.multi1_sw4_on
+      - input_datetime.multi1_sw4_off
+      - input_datetime.multi1_usb_on
+      - input_datetime.multi1_usb_off
+      - sensor.multi1_power
+      - sensor.multi1_sw1
+      - sensor.multi1_sw2
+      - sensor.multi1_sw3
+      - sensor.multi1_sw4
+      - sensor.multi1_usb
+      
+      
+###input datatime##
+
+#orari on e off prese
+input_datetime:
+  multi1_sw1_on:
+    has_date: false
+    has_time: true
+    
+  multi1_sw1_off:
+    has_date: false
+    has_time: true
+    
+  multi1_sw2_on:
+    has_date: false
+    has_time: true
+    
+  multi1_sw2_off:
+    has_date: false
+    has_time: true
+    
+  multi1_sw3_on:
+    has_date: false
+    has_time: true
+    
+  multi1_sw3_off:
+    has_date: false
+    has_time: true
+    
+  multi1_sw4_on:
+    has_date: false
+    has_time: true
+    
+  multi1_sw4_off:
+    has_date: false
+    has_time: true
+    
+  multi1_usb_on:
+    has_date: false
+    has_time: true
+    
+  multi1_usb_off:
+    has_date: false
+    has_time: true
+
+    
+input_boolean:
+  att_progr_presa:
+    icon: mdi:alarm-check
+    name: "Programmazione"
+ 
+ 
+##########
+##scrpt ##
+##########
+
+script:
+  script_reset_sw:
+    alias: Reset_SW_Multipresa
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_usb_on
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_usb_off
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_sw1_on
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_sw1_off
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_sw2_on
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_sw2_off
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_sw3_on
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_sw3_off
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_sw4_on
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.multi1_sw4_off
+          time: 00:00:00
+          
+###sensor###
+  
+sensor:
+
+  - platform: template
+    sensors:
+      multi1_sw1:
+        value_template: "{{ state_attr('switch.presa_1', 'friendly_name') }}"
+        
+  - platform: template
+    sensors:
+      multi1_sw2:
+        value_template: "{{ state_attr('switch.presa_2', 'friendly_name') }}"
+        
+  - platform: template
+    sensors:
+      multi1_sw3:
+        value_template: "{{ state_attr('switch.presa_3', 'friendly_name') }}"
+        
+  - platform: template
+    sensors:
+      multi1_sw4:
+        value_template: "{{ state_attr('switch.presa_4', 'friendly_name') }}"
+        
+  - platform: template
+    sensors:
+      multi1_usb:
+        value_template: "{{ state_attr('switch.presa_usb', 'friendly_name') }}"
+
+
+#sensore complessivo dello stato multipresa        
+  - platform: template
+    sensors:
+      multi1_power:
+        value_template: >-
+          {% if is_state("switch.presa_1", "on") or
+           is_state("switch.presa_2", "on") or
+           is_state("switch.presa_3", "on") or
+           is_state("switch.presa_4", "on") or
+           is_state("switch.presa_usb", "on") -%}
+            on
+          {%- else -%}
+            off
+          {%- endif %}
+          
+#sensore tasto power
+  # - platform: mqtt
+    # name: "Tasto Power"
+    # state_topic: "cmnd/tasto/POWER1"
+
+    
+#sensore potenza segnale Wi-Fi
+  - platform: mqtt
+    name: 'Wi-Fi Multipresa'
+    icon: mdi:wifi
+    state_topic: 'tele/Multi1/STATE'
+    value_template: "{{ value_json.Wifi.RSSI }}"
+    unit_of_measurement: '%' 
+    
+    
+###automation##
+
+#Accensioni spegnimento prese in base a orari impostati        
+automation:
+  - alias: Accensione Presa 1
+    trigger:
+      - platform: template
+        value_template: "{{ states('sensor.time') == states('input_datetime.multi1_sw1_on')[:5] or states('sensor.time') == states('input_datetime.multi1_sw1_off')[:5]}}"  
+    condition:
+      condition: and
+      conditions:
+        - condition: template
+          value_template: "{{ (states('input_datetime.multi1_sw1_on')[:5]) != '00:00' and (states('input_datetime.multi1_sw1_off')[:5]) != '00:00' }}"
+        - condition: state
+          entity_id: 'input_boolean.att_progr_presa'
+          state: 'on'
+    action:
+      - service_template: >
+          {% if states('sensor.time') == states('input_datetime.multi1_sw1_on')[:5] %}
+           switch.turn_on
+          {% elif states('sensor.time') == states('input_datetime.multi1_sw1_off')[:5] %}
+           switch.turn_off
+          {% endif %}
+        entity_id: switch.presa_1
+      - service: notify.telegram
+        data_template:
+           title: '*-- Multipresa Wi-Fi --*'
+           message: > 
+             {% if states('sensor.time') == states('input_datetime.multi1_sw1_on')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_sw1.state }} ACCESA, si spegnerà alle {{states('input_datetime.multi1_sw1_off')[:5]}}
+             {% elif states('sensor.time') == states('input_datetime.multi1_sw1_off')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_sw1.state }} SPETA
+             {% endif %}
+
+        
+  - alias: Accensione Presa 2
+    trigger:
+      - platform: template
+        value_template: "{{ states('sensor.time') == states('input_datetime.multi1_sw2_on')[:5] or states('sensor.time') == states('input_datetime.multi1_sw2_off')[:5]}}"  
+    condition:
+      condition: and
+      conditions:
+        - condition: template
+          value_template: "{{ (states('input_datetime.multi1_sw2_on')[:5]) != '00:00' and (states('input_datetime.multi1_sw2_off')[:5]) != '00:00' }}"
+        - condition: state
+          entity_id: 'input_boolean.att_progr_presa'
+          state: 'on'
+    action:
+      - service_template: >
+          {% if states('sensor.time') == states('input_datetime.multi1_sw2_on')[:5] %}
+           switch.turn_on
+          {% elif states('sensor.time') == states('input_datetime.multi1_sw2_off')[:5] %}
+           switch.turn_off
+          {% endif %}
+        entity_id: switch.presa_2
+      - service: notify.telegram
+        data_template:
+           title: '*-- Multipresa Wi-Fi --*'
+           message: > 
+             {% if states('sensor.time') == states('input_datetime.multi1_sw2_on')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_sw2.state }} ACCESA, si spegnerà alle {{states('input_datetime.multi1_sw2_on')[:5]}}
+             {% elif states('sensor.time') == states('input_datetime.multi1_sw2_off')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_sw2.state }} SPETA
+             {% endif %}
+        
+        
+  - alias: Accensione Presa 3
+    trigger:
+      - platform: template
+        value_template: "{{ states('sensor.time') == states('input_datetime.multi1_sw3_on')[:5] or states('sensor.time') == states('input_datetime.multi1_sw3_off')[:5]}}"  
+    condition:
+      condition: and
+      conditions:
+        - condition: template
+          value_template: "{{ (states('input_datetime.multi1_sw3_on')[:5]) != '00:00' and (states('input_datetime.multi1_sw3_off')[:5]) != '00:00' }}"
+        - condition: state
+          entity_id: 'input_boolean.att_progr_presa'
+          state: 'on'
+    action:
+      - service_template: >
+          {% if states('sensor.time') == states('input_datetime.multi1_sw3_on')[:5] %}
+           switch.turn_on
+          {% elif states('sensor.time') == states('input_datetime.multi1_sw3_off')[:5] %}
+           switch.turn_off
+          {% endif %}
+        entity_id: switch.presa_3
+      - service: notify.telegram
+        data_template:
+           title: '*-- Multipresa Wi-Fi --*'
+           message: > 
+             {% if states('sensor.time') == states('input_datetime.multi1_sw3_on')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_sw3.state }} ACCESA, si spegnerà alle {{states('input_datetime.multi1_sw3_off')[:5]}}
+             {% elif states('sensor.time') == states('input_datetime.multi1_sw3_off')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_sw3.state }} SPETA
+             {% endif %}
+
+        
+  - alias: Accensione Presa 4
+    trigger:
+      - platform: template
+        value_template: "{{ states('sensor.time') == states('input_datetime.multi1_sw4_on')[:5] or states('sensor.time') == states('input_datetime.multi1_sw4_off')[:5]}}"  
+    condition:
+      condition: and
+      conditions:
+        - condition: template
+          value_template: "{{ (states('input_datetime.multi1_sw4_on')[:5]) != '00:00' and (states('input_datetime.multi1_sw4_off')[:5]) != '00:00' }}"
+        - condition: state
+          entity_id: 'input_boolean.att_progr_presa'
+          state: 'on'
+    action:
+      - service_template: >
+          {% if states('sensor.time') == states('input_datetime.multi1_sw4_on')[:5] %}
+           switch.turn_on
+          {% elif states('sensor.time') == states('input_datetime.multi1_sw4_off')[:5] %}
+           switch.turn_off
+          {% endif %}
+        entity_id: switch.presa_4
+      - service: notify.telegram
+        data_template:
+           title: '*-- Multipresa Wi-Fi --*'
+           message: > 
+             {% if states('sensor.time') == states('input_datetime.multi1_sw4_on')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_sw4.state }} ACCESA, si spegnerà alle {{states('input_datetime.multi1_sw4_off')[:5]}}
+             {% elif states('sensor.time') == states('input_datetime.multi1_sw4_off')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_sw4.state }} SPETA
+             {% endif %}
+        
+        
+  - alias: Accensione Presa USB
+    trigger:
+      - platform: template
+        value_template: "{{ states('sensor.time') == states('input_datetime.multi1_usb_on')[:5] or states('sensor.time') == states('input_datetime.multi1_usb_off')[:5]}}"  
+    condition:
+      condition: and
+      conditions:
+        - condition: template
+          value_template: "{{ (states('input_datetime.multi1_usb_on')[:5]) != '00:00' and (states('input_datetime.multi1_usb_off')[:5]) != '00:00' }}"
+        - condition: state
+          entity_id: 'input_boolean.att_progr_presa'
+          state: 'on'
+    action:
+      - service_template: >
+          {% if states('sensor.time') == states('input_datetime.multi1_usb_on')[:5] %}
+           switch.turn_on
+          {% elif states('sensor.time') == states('input_datetime.multi1_usb_off')[:5] %}
+           switch.turn_off
+          {% endif %}
+        entity_id: switch.presa_usb
+      - service: notify.telegram
+        data_template:
+           title: '*-- Multipresa Wi-Fi --*'
+           message: > 
+             {% if states('sensor.time') == states('input_datetime.multi1_usb_on')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_usb.state }} ACCESA, si spegnerà alle {{states('input_datetime.multi1_usb_off')[:5]}}
+             {% elif states('sensor.time') == states('input_datetime.multi1_usb_off')[:5] %}
+             {{now().strftime("%H:%M")}}: {{ states.sensor.multi1_usb.state }} SPETA
+             {% endif %}
+
+             
+#Automazione tasto Power
+  # - alias: On Off Tasto Power
+    # trigger:
+      # - platform: state
+        # from: 'OFF'
+        # to: 'ON'
+    # action:
+      # - service: switch.toggle
+        # data:
+          # entity_id: switch.multipresa1_power
+
+###switch###
+
+#Tasto Power generale on off multipresa
+switch:
+  - platform: template
+    switches:
+      multipresa1_power:
+        value_template: "{{ is_state('sensor.multi1_power', 'on') }}"
+        turn_on:
+          service: switch.turn_on
+          data:
+            entity_id: 
+              - switch.presa_1
+              - switch.presa_2
+              - switch.presa_3
+              - switch.presa_4
+              - switch.presa_usb
+        turn_off:
+          service: switch.turn_off
+          data:
+            entity_id: 
+              - switch.presa_1
+              - switch.presa_2
+              - switch.presa_3
+              - switch.presa_4
+              - switch.presa_usb
+        
+
+### Multipresa Wifi
+
+  - platform: mqtt
+    name: "Presa 1"
+    command_topic: "cmnd/Multi1/power1"
+    state_topic: "stat/Multi1/POWER1"
+    availability_topic: "tele/Multi1/LWT"
+    qos: 1
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    retain: true
+  
+  - platform: mqtt
+    name: "Presa 2"
+    command_topic: "cmnd/Multi1/power2"
+    state_topic: "stat/Multi1/POWER2"
+    availability_topic: "tele/Multi1/LWT"
+    qos: 1
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    retain: true
+  
+  - platform: mqtt
+    name: "Presa 3"
+    command_topic: "cmnd/Multi1/power3"
+    state_topic: "stat/Multi1/POWER3"
+    availability_topic: "tele/Multi1/LWT"
+    qos: 1
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    retain: true
+  
+  - platform: mqtt
+    name: "Presa 4"
+    command_topic: "cmnd/Multi1/power4"
+    state_topic: "stat/Multi1/POWER4"
+    availability_topic: "tele/Multi1/LWT"
+    qos: 1
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    retain: true
+  
+  - platform: mqtt
+    name: "Presa USB"
+    command_topic: "cmnd/Multi1/power5"
+    state_topic: "stat/Multi1/POWER5"
+    availability_topic: "tele/Multi1/LWT"
+    qos: 1
+    payload_available: "Online"
+    payload_not_available: "Offline"
+    payload_on: "ON"
+    payload_off: "OFF"
+    state_on: "ON"
+    state_off: "OFF"
+    retain: true
