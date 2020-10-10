@@ -1,0 +1,1031 @@
+group:
+  radio:
+    name: Radio
+    entities:
+    - input_select.radio_station
+    - input_select.speackers_radio
+    - script.radio
+    
+  speackers:
+    name: Speackers
+    entities:
+    - media_player.camera_matrimoniale
+    - media_player.soggiorno
+
+input_select:
+  radio_station:
+    name: 'Select Radio Station:'
+    options:
+      - Radio-105
+      - Radiodeejay
+      - RTL
+      - Radio Kiss Kiss
+      - Radio Capital
+      - Virgin Radio
+      - M2O
+      - Discoradio
+      - Nova 93-7
+      - Raw FM (dance)
+      - 181FM Power (Todays Hits)
+      - 181FM 90's Dance
+      - 181FM Star 90's
+      - Radio Z
+      - DI Chill & Tropical House
+      - DI Disco House
+      - DI Funky House
+      - DI Liquid D&B
+    initial: Radio-105
+    icon: mdi:radio
+    
+  radio_lun:
+    name: 'Select Radio Lunedì:'
+    options:
+      - Radio-105
+      - Radiodeejay
+      - RTL
+      - Radio Kiss Kiss
+      - Radio Capital
+      - Virgin Radio
+      - M2O
+      - Discoradio
+      - Nova 93-7
+      - Raw FM (dance)
+      - 181FM Power (Todays Hits)
+      - 181FM 90's Dance
+      - 181FM Star 90's
+      - Radio Z
+      - DI Chill & Tropical House
+      - DI Disco House
+      - DI Funky House
+      - DI Liquid D&B
+    icon: mdi:radio
+  radio_mar:
+    name: 'Select Radio Martedì:'
+    options:
+      - Radio-105
+      - Radiodeejay
+      - RTL
+      - Radio Kiss Kiss
+      - Radio Capital
+      - Virgin Radio
+      - M2O
+      - Discoradio
+      - Nova 93-7
+      - Raw FM (dance)
+      - 181FM Power (Todays Hits)
+      - 181FM 90's Dance
+      - 181FM Star 90's
+      - Radio Z
+      - DI Chill & Tropical House
+      - DI Disco House
+      - DI Funky House
+      - DI Liquid D&B
+    icon: mdi:radio
+  radio_mer:
+    name: 'Select Radio Mercoledì:'
+    options:
+      - Radio-105
+      - Radiodeejay
+      - RTL
+      - Radio Kiss Kiss
+      - Radio Capital
+      - Virgin Radio
+      - M2O
+      - Discoradio
+      - Nova 93-7
+      - Raw FM (dance)
+      - 181FM Power (Todays Hits)
+      - 181FM 90's Dance
+      - 181FM Star 90's
+      - Radio Z
+      - DI Chill & Tropical House
+      - DI Disco House
+      - DI Funky House
+      - DI Liquid D&B
+    icon: mdi:radio
+  radio_gio:
+    name: 'Select Radio Giovedì:'
+    options:
+      - Radio-105
+      - Radiodeejay
+      - RTL
+      - Radio Kiss Kiss
+      - Radio Capital
+      - Virgin Radio
+      - M2O
+      - Discoradio
+      - Nova 93-7
+      - Raw FM (dance)
+      - 181FM Power (Todays Hits)
+      - 181FM 90's Dance
+      - 181FM Star 90's
+      - Radio Z
+      - DI Chill & Tropical House
+      - DI Disco House
+      - DI Funky House
+      - DI Liquid D&B
+    icon: mdi:radio
+  radio_ven:
+    name: 'Select Radio Venerdì:'
+    options:
+      - Radio-105
+      - Radiodeejay
+      - RTL
+      - Radio Kiss Kiss
+      - Radio Capital
+      - Virgin Radio
+      - M2O
+      - Discoradio
+      - Nova 93-7
+      - Raw FM (dance)
+      - 181FM Power (Todays Hits)
+      - 181FM 90's Dance
+      - 181FM Star 90's
+      - Radio Z
+      - DI Chill & Tropical House
+      - DI Disco House
+      - DI Funky House
+      - DI Liquid D&B
+    icon: mdi:radio
+  radio_sab:
+    name: 'Select Radio Sabato:'
+    options:
+      - Radio-105
+      - Radiodeejay
+      - RTL
+      - Radio Kiss Kiss
+      - Radio Capital
+      - Virgin Radio
+      - M2O
+      - Discoradio
+      - Nova 93-7
+      - Raw FM (dance)
+      - 181FM Power (Todays Hits)
+      - 181FM 90's Dance
+      - 181FM Star 90's
+      - Radio Z
+      - DI Chill & Tropical House
+      - DI Disco House
+      - DI Funky House
+      - DI Liquid D&B
+    icon: mdi:radio
+  radio_dom:
+    name: 'Select Radio Domenica:'
+    options:
+      - Radio-105
+      - Radiodeejay
+      - RTL
+      - Radio Kiss Kiss
+      - Radio Capital
+      - Virgin Radio
+      - M2O
+      - Discoradio
+      - Nova 93-7
+      - Raw FM (dance)
+      - 181FM Power (Todays Hits)
+      - 181FM 90's Dance
+      - 181FM Star 90's
+      - Radio Z
+      - DI Chill & Tropical House
+      - DI Disco House
+      - DI Funky House
+      - DI Liquid D&B
+    icon: mdi:radio
+
+
+  speackers_radio:
+    name: 'Select Speakers:'
+    options:
+      - Soggiorno
+      - Camera matrimoniale
+      - Tutti gli speackers
+    initial: Soggiorno
+    icon: mdi:google-home
+  speackers_lun:
+    name: 'Select Speakers:'
+    options:
+      - Soggiorno
+      - Camera matrimoniale
+      - Tutti gli speackers
+    initial: Soggiorno
+    icon: mdi:google-home
+  speackers_mar:
+    name: 'Select Speakers:'
+    options:
+      - Soggiorno
+      - Camera matrimoniale
+      - Tutti gli speackers
+    initial: Soggiorno
+    icon: mdi:google-home
+  speackers_mer:
+    name: 'Select Speakers:'
+    options:
+      - Soggiorno
+      - Camera matrimoniale
+      - Tutti gli speackers
+    initial: Soggiorno
+    icon: mdi:google-home
+  speackers_gio:
+    name: 'Select Speakers:'
+    options:
+      - Soggiorno
+      - Camera matrimoniale
+      - Tutti gli speackers
+    initial: Soggiorno
+    icon: mdi:google-home
+  speackers_ven:
+    name: 'Select Speakers:'
+    options:
+      - Soggiorno
+      - Camera matrimoniale
+      - Tutti gli speackers
+    initial: Soggiorno
+    icon: mdi:google-home
+  speackers_sab:
+    name: 'Select Speakers:'
+    options:
+      - Soggiorno
+      - Camera matrimoniale
+      - Tutti gli speackers
+    initial: Soggiorno
+    icon: mdi:google-home
+  speackers_dom:
+    name: 'Select Speakers:'
+    options:
+      - Soggiorno
+      - Camera matrimoniale
+      - Tutti gli speackers
+    initial: Soggiorno
+    icon: mdi:google-home
+
+input_number: 
+  volume_radio:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+  volume_radio_lun:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+  volume_radio_mar:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+  volume_radio_mer:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+  volume_radio_gio:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+  volume_radio_ven:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+  volume_radio_sab:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+  volume_radio_dom:
+    name: Volume
+    icon: mdi:volume-high
+    min: 0
+    max: 1
+    step: 0.05
+    
+####################
+##time slot radios##
+####################
+
+input_datetime:
+  lun_radio_inizio:
+    name: Lunedì Radio inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  lun_radio_fine:
+    name: Lunedì Radio fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  mar_radio_inizio:
+    name: Martedì Radio inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  mar_radio_fine:
+    name: Martedì Radio fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  mer_radio_inizio:
+    name: Mercoledì Radio inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  mer_radio_fine:
+    name: Mercoledì Radio fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  gio_radio_inizio:
+    name: Giovedì Radio inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  gio_radio_fine:
+    name: Giovedì Radio fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  ven_radio_inizio:
+    name: Venerdì Radio inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  ven_radio_fine:
+    name: Venerdì Radio fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  sab_radio_inizio:
+    name: Sabato Radio inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  sab_radio_fine:
+    name: Sabato Radio fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  dom_radio_inizio:
+    name: Domenica Radio inizio
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+  dom_radio_fine:
+    name: Domenica Radio fine
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+
+########################        
+####Radio Automation####        
+########################
+
+automation:
+- id: '1589639793819'
+  alias: 'Accensione Radio Lunedi'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.lun_radio_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.lunedi
+      state: 'on'
+    - condition: time
+      weekday: mon
+  action:
+  - service: media_player.volume_set
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_lun", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_lun", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_lun", "Tutti gli speackers") %} group.speackers
+        {% endif %}      
+      volume_level: '{{  states.input_number.volume_radio_lun.state  }}'
+  - service: media_player.play_media
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_lun", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_lun", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_lun", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+      media_content_id: >
+        {% if is_state("input_select.radio_lun", "Radio-105") %} http://icecast.unitedradio.it/Radio105.mp3
+        {% elif is_state("input_select.radio_lun", "Radiodeejay") %} http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8
+        {% elif is_state("input_select.radio_lun", "RTL") %} http://shoutcast.rtl.it:3010
+        {% elif is_state("input_select.radio_lun", "Radio Kiss Kiss") %} http://ice07.fluidstream.net:8080/KissKiss.mp3
+        {% elif is_state("input_select.radio_lun", "Radio Capital") %} http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8
+        {% elif is_state("input_select.radio_lun", "Virgin Radio") %} http://icecast.unitedradio.it/Virgin.mp3
+        {% elif is_state("input_select.radio_lun", "M2O") %} http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8
+        {% elif is_state("input_select.radio_lun", "Discoradio") %} http://46.37.20.206:1935/live/1discoradio.stream/playlist.m3u8
+        {% elif is_state("input_select.radio_lun", "Nova 93-7") %} http://streaming.novaentertainment.com.au/nova937
+        {% elif is_state("input_select.radio_lun", "Raw FM (dance)") %} http://stream.rawfm.com.au:8000/;stream.nsv
+        {% elif is_state("input_select.radio_lun", "181FM Power (Todays Hits)") %} http://listen.181fm.com/181-power_128k.mp3?
+        {% elif is_state("input_select.radio_lun", "181FM 90's Dance") %} http://listen.181fm.com/181-90sdance_128k.mp3
+        {% elif is_state("input_select.radio_lun", "181FM Star 90's") %} http://listen.181fm.com/181-star90s_128k.mp3
+        {% elif is_state("input_select.radio_lun", "Radio Z") %} http://shoutcast.rtl.it:3030/stream/1/
+        {% elif is_state("input_select.radio_lun", "DI Chill & Tropical House") %} http://pub1.diforfree.org:8000/di_chillntropicalhouse_hi
+        {% elif is_state("input_select.radio_lun", "DI Disco House") %} http://pub1.diforfree.org:8000/di_discohouse_hi
+        {% elif is_state("input_select.radio_lun", "DI Funky House") %} http://pub1.diforfree.org:8000/di_funkyhouse_hi
+        {% elif is_state("input_select.radio_lun", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
+        {% endif %}
+      media_content_type: 'audio/mp4'
+- id: '1589639793820'
+  alias: 'Spegnimento Radio Lunedì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.lun_radio_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.lunedi
+      state: 'on'
+    - condition: time
+      weekday: mon
+  action:
+  - service: media_player.media_stop
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_lun", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_lun", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_lun", "Tutti gli speackers") %} group.speackers
+        {% endif %}        
+  - data:
+      message: Web radio spenta
+    service: notify.mobile_app_iphone_slx
+- id: '1589639793821'
+  alias: 'Accensione Radio Martedì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.mar_radio_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.martedi
+      state: 'on'
+    - condition: time
+      weekday: tue
+  action:
+  - service: media_player.volume_set
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_mar", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_mar", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_mar", "Tutti gli speackers") %} group.speackers
+        {% endif %}      
+      volume_level: '{{  states.input_number.volume_radio_mar.state  }}'
+  - service: media_player.play_media
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_mar", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_mar", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_mar", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+      media_content_id: >
+        {% if is_state("input_select.radio_mar", "Radio-105") %} http://icecast.unitedradio.it/Radio105.mp3
+        {% elif is_state("input_select.radio_mar", "Radiodeejay") %} http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8
+        {% elif is_state("input_select.radio_mar", "RTL") %} http://shoutcast.rtl.it:3010
+        {% elif is_state("input_select.radio_mar", "Radio Kiss Kiss") %} http://ice07.fluidstream.net:8080/KissKiss.mp3
+        {% elif is_state("input_select.radio_mar", "Radio Capital") %} http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8
+        {% elif is_state("input_select.radio_mar", "Virgin Radio") %} http://icecast.unitedradio.it/Virgin.mp3
+        {% elif is_state("input_select.radio_mar", "M2O") %} http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8
+        {% elif is_state("input_select.radio_mar", "Discoradio") %} http://46.37.20.206:1935/live/1discoradio.stream/playlist.m3u8
+        {% elif is_state("input_select.radio_mar", "Nova 93-7") %} http://streaming.novaentertainment.com.au/nova937
+        {% elif is_state("input_select.radio_mar", "Raw FM (dance)") %} http://stream.rawfm.com.au:8000/;stream.nsv
+        {% elif is_state("input_select.radio_mar", "181FM Power (Todays Hits)") %} http://listen.181fm.com/181-power_128k.mp3?
+        {% elif is_state("input_select.radio_mar", "181FM 90's Dance") %} http://listen.181fm.com/181-90sdance_128k.mp3
+        {% elif is_state("input_select.radio_mar", "181FM Star 90's") %} http://listen.181fm.com/181-star90s_128k.mp3
+        {% elif is_state("input_select.radio_mar", "Radio Z") %} http://shoutcast.rtl.it:3030/stream/1/
+        {% elif is_state("input_select.radio_mar", "DI Chill & Tropical House") %} http://pub1.diforfree.org:8000/di_chillntropicalhouse_hi
+        {% elif is_state("input_select.radio_mar", "DI Disco House") %} http://pub1.diforfree.org:8000/di_discohouse_hi
+        {% elif is_state("input_select.radio_mar", "DI Funky House") %} http://pub1.diforfree.org:8000/di_funkyhouse_hi
+        {% elif is_state("input_select.radio_mar", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
+        {% endif %}
+      media_content_type: 'audio/mp4'
+- id: '1589639793822'
+  alias: 'Spegnimento Radio Martedì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.mar_radio_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.martedi
+      state: 'on'
+    - condition: time
+      weekday: tue
+  action:
+  - service: media_player.media_stop
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_mar", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_mar", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_mar", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+  - data:
+      message: Web radio spenta
+    service: notify.mobile_app_iphone_slx
+- id: '1589639793823'
+  alias: 'Accensione Radio Mercoledì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.mer_radio_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.mercoledi
+      state: 'on'
+    - condition: time
+      weekday: wed
+  action:
+  - service: media_player.volume_set
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_mer", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_mer", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_mer", "Tutti gli speackers") %} group.speackers
+        {% endif %}      
+      volume_level: '{{  states.input_number.volume_radio_mer.state  }}'
+  - service: media_player.play_media
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_mer", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_mer", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_mer", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+      media_content_id: >
+        {% if is_state("input_select.radio_mer", "Radio-105") %} http://icecast.unitedradio.it/Radio105.mp3
+        {% elif is_state("input_select.radio_mer", "Radiodeejay") %} http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8
+        {% elif is_state("input_select.radio_mer", "RTL") %} http://shoutcast.rtl.it:3010
+        {% elif is_state("input_select.radio_mer", "Radio Kiss Kiss") %} http://ice07.fluidstream.net:8080/KissKiss.mp3
+        {% elif is_state("input_select.radio_mer", "Radio Capital") %} http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8
+        {% elif is_state("input_select.radio_mer", "Virgin Radio") %} http://icecast.unitedradio.it/Virgin.mp3
+        {% elif is_state("input_select.radio_mer", "M2O") %} http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8
+        {% elif is_state("input_select.radio_mer", "Discoradio") %} http://46.37.20.206:1935/live/1discoradio.stream/playlist.m3u8
+        {% elif is_state("input_select.radio_mer", "Nova 93-7") %} http://streaming.novaentertainment.com.au/nova937
+        {% elif is_state("input_select.radio_mer", "Raw FM (dance)") %} http://stream.rawfm.com.au:8000/;stream.nsv
+        {% elif is_state("input_select.radio_mer", "181FM Power (Todays Hits)") %} http://listen.181fm.com/181-power_128k.mp3?
+        {% elif is_state("input_select.radio_mer", "181FM 90's Dance") %} http://listen.181fm.com/181-90sdance_128k.mp3
+        {% elif is_state("input_select.radio_mer", "181FM Star 90's") %} http://listen.181fm.com/181-star90s_128k.mp3
+        {% elif is_state("input_select.radio_mer", "Radio Z") %} http://shoutcast.rtl.it:3030/stream/1/
+        {% elif is_state("input_select.radio_mer", "DI Chill & Tropical House") %} http://pub1.diforfree.org:8000/di_chillntropicalhouse_hi
+        {% elif is_state("input_select.radio_mer", "DI Disco House") %} http://pub1.diforfree.org:8000/di_discohouse_hi
+        {% elif is_state("input_select.radio_mer", "DI Funky House") %} http://pub1.diforfree.org:8000/di_funkyhouse_hi
+        {% elif is_state("input_select.radio_mer", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
+        {% endif %}
+      media_content_type: 'audio/mp4'
+- id: '1589639793824'
+  alias: 'Spegnimento Radio Mercoledì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.mer_radio_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.mercoledi
+      state: 'on'
+    - condition: time
+      weekday: wed
+  action:
+  - service: media_player.media_stop
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_mer", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_mer", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_mer", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+  - data:
+      message: Web radio spenta
+    service: notify.mobile_app_iphone_slx
+- id: '1589639793825'
+  alias: 'Accensione Radio Giovedì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.gio_radio_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.giovedi
+      state: 'on'
+    - condition: time
+      weekday: thu
+  action:
+  - service: media_player.volume_set
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_gio", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_gio", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_gio", "Tutti gli speackers") %} group.speackers
+        {% endif %}      
+      volume_level: '{{  states.input_number.volume_radio_gio.state  }}'
+  - service: media_player.play_media
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_gio", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_gio", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_gio", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+      media_content_id: >
+        {% if is_state("input_select.radio_gio", "Radio-105") %} http://icecast.unitedradio.it/Radio105.mp3
+        {% elif is_state("input_select.radio_gio", "Radiodeejay") %} http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8
+        {% elif is_state("input_select.radio_gio", "RTL") %} http://shoutcast.rtl.it:3010
+        {% elif is_state("input_select.radio_gio", "Radio Kiss Kiss") %} http://ice07.fluidstream.net:8080/KissKiss.mp3
+        {% elif is_state("input_select.radio_gio", "Radio Capital") %} http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8
+        {% elif is_state("input_select.radio_gio", "Virgin Radio") %} http://icecast.unitedradio.it/Virgin.mp3
+        {% elif is_state("input_select.radio_gio", "M2O") %} http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8
+        {% elif is_state("input_select.radio_gio", "Discoradio") %} http://46.37.20.206:1935/live/1discoradio.stream/playlist.m3u8
+        {% elif is_state("input_select.radio_gio", "Nova 93-7") %} http://streaming.novaentertainment.com.au/nova937
+        {% elif is_state("input_select.radio_gio", "Raw FM (dance)") %} http://stream.rawfm.com.au:8000/;stream.nsv
+        {% elif is_state("input_select.radio_gio", "181FM Power (Todays Hits)") %} http://listen.181fm.com/181-power_128k.mp3?
+        {% elif is_state("input_select.radio_gio", "181FM 90's Dance") %} http://listen.181fm.com/181-90sdance_128k.mp3
+        {% elif is_state("input_select.radio_gio", "181FM Star 90's") %} http://listen.181fm.com/181-star90s_128k.mp3
+        {% elif is_state("input_select.radio_gio", "Radio Z") %} http://shoutcast.rtl.it:3030/stream/1/
+        {% elif is_state("input_select.radio_gio", "DI Chill & Tropical House") %} http://pub1.diforfree.org:8000/di_chillntropicalhouse_hi
+        {% elif is_state("input_select.radio_gio", "DI Disco House") %} http://pub1.diforfree.org:8000/di_discohouse_hi
+        {% elif is_state("input_select.radio_gio", "DI Funky House") %} http://pub1.diforfree.org:8000/di_funkyhouse_hi
+        {% elif is_state("input_select.radio_gio", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
+        {% endif %}
+      media_content_type: 'audio/mp4'
+- id: '1589639793826'
+  alias: 'Spegnimento Radio Giovedì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.gio_radio_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.giovedi
+      state: 'on'
+    - condition: time
+      weekday: thu
+  action:
+  - service: media_player.media_stop
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_gio", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_gio", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_gio", "Tutti gli speackers") %} group.speackers
+        {% endif %} 
+  - data:
+      message: Web radio spenta
+    service: notify.mobile_app_iphone_slx
+- id: '1589639793827'
+  alias: 'Accensione Radio Venerdì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.ven_radio_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.venerdi
+      state: 'on'
+    - condition: time
+      weekday: fri
+  action:
+  - service: media_player.volume_set
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_ven", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_ven", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_ven", "Tutti gli speackers") %} group.speackers
+        {% endif %}      
+      volume_level: '{{  states.input_number.volume_radio_ven.state  }}'
+  - service: media_player.play_media
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_ven", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_ven", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_ven", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+      media_content_id: >
+        {% if is_state("input_select.radio_ven", "Radio-105") %} http://icecast.unitedradio.it/Radio105.mp3
+        {% elif is_state("input_select.radio_ven", "Radiodeejay") %} http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8
+        {% elif is_state("input_select.radio_ven", "RTL") %} http://shoutcast.rtl.it:3010
+        {% elif is_state("input_select.radio_ven", "Radio Kiss Kiss") %} http://ice07.fluidstream.net:8080/KissKiss.mp3
+        {% elif is_state("input_select.radio_ven", "Radio Capital") %} http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8
+        {% elif is_state("input_select.radio_ven", "Virgin Radio") %} http://icecast.unitedradio.it/Virgin.mp3
+        {% elif is_state("input_select.radio_ven", "M2O") %} http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8
+        {% elif is_state("input_select.radio_ven", "Discoradio") %} http://46.37.20.206:1935/live/1discoradio.stream/playlist.m3u8
+        {% elif is_state("input_select.radio_ven", "Nova 93-7") %} http://streaming.novaentertainment.com.au/nova937
+        {% elif is_state("input_select.radio_ven", "Raw FM (dance)") %} http://stream.rawfm.com.au:8000/;stream.nsv
+        {% elif is_state("input_select.radio_ven", "181FM Power (Todays Hits)") %} http://listen.181fm.com/181-power_128k.mp3?
+        {% elif is_state("input_select.radio_ven", "181FM 90's Dance") %} http://listen.181fm.com/181-90sdance_128k.mp3
+        {% elif is_state("input_select.radio_ven", "181FM Star 90's") %} http://listen.181fm.com/181-star90s_128k.mp3
+        {% elif is_state("input_select.radio_ven", "Radio Z") %} http://shoutcast.rtl.it:3030/stream/1/
+        {% elif is_state("input_select.radio_ven", "DI Chill & Tropical House") %} http://pub1.diforfree.org:8000/di_chillntropicalhouse_hi
+        {% elif is_state("input_select.radio_ven", "DI Disco House") %} http://pub1.diforfree.org:8000/di_discohouse_hi
+        {% elif is_state("input_select.radio_ven", "DI Funky House") %} http://pub1.diforfree.org:8000/di_funkyhouse_hi
+        {% elif is_state("input_select.radio_ven", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
+        {% endif %}
+      media_content_type: 'audio/mp4'
+- id: '1589639793828'
+  alias: 'Spegnimento Radio Venerdì'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.ven_radio_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.venerdi
+      state: 'on'
+    - condition: time
+      weekday: fri
+  action:
+  - service: media_player.media_stop
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_ven", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_ven", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_ven", "Tutti gli speackers") %} group.speackers
+        {% endif %} 
+  - data:
+      message: Web radio spenta
+    service: notify.mobile_app_iphone_slx
+- id: '1589639793829'
+  alias: 'Accensione Radio Sabato'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.sab_radio_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.sabato
+      state: 'on'
+    - condition: time
+      weekday: sat
+  action:
+  - service: media_player.volume_set
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_sab", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_sab", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_sab", "Tutti gli speackers") %} group.speackers
+        {% endif %}      
+      volume_level: '{{  states.input_number.volume_radio_sab.state  }}'
+  - service: media_player.play_media
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_sab", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_sab", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_sab", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+      media_content_id: >
+        {% if is_state("input_select.radio_sab", "Radio-105") %} http://icecast.unitedradio.it/Radio105.mp3
+        {% elif is_state("input_select.radio_sab", "Radiodeejay") %} http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8
+        {% elif is_state("input_select.radio_sab", "RTL") %} http://shoutcast.rtl.it:3010
+        {% elif is_state("input_select.radio_sab", "Radio Kiss Kiss") %} http://ice07.fluidstream.net:8080/KissKiss.mp3
+        {% elif is_state("input_select.radio_sab", "Radio Capital") %} http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8
+        {% elif is_state("input_select.radio_sab", "Virgin Radio") %} http://icecast.unitedradio.it/Virgin.mp3
+        {% elif is_state("input_select.radio_sab", "M2O") %} http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8
+        {% elif is_state("input_select.radio_sab", "Discoradio") %} http://46.37.20.206:1935/live/1discoradio.stream/playlist.m3u8
+        {% elif is_state("input_select.radio_sab", "Nova 93-7") %} http://streaming.novaentertainment.com.au/nova937
+        {% elif is_state("input_select.radio_sab", "Raw FM (dance)") %} http://stream.rawfm.com.au:8000/;stream.nsv
+        {% elif is_state("input_select.radio_sab", "181FM Power (Todays Hits)") %} http://listen.181fm.com/181-power_128k.mp3?
+        {% elif is_state("input_select.radio_sab", "181FM 90's Dance") %} http://listen.181fm.com/181-90sdance_128k.mp3
+        {% elif is_state("input_select.radio_sab", "181FM Star 90's") %} http://listen.181fm.com/181-star90s_128k.mp3
+        {% elif is_state("input_select.radio_sab", "Radio Z") %} http://shoutcast.rtl.it:3030/stream/1/
+        {% elif is_state("input_select.radio_sab", "DI Chill & Tropical House") %} http://pub1.diforfree.org:8000/di_chillntropicalhouse_hi
+        {% elif is_state("input_select.radio_sab", "DI Disco House") %} http://pub1.diforfree.org:8000/di_discohouse_hi
+        {% elif is_state("input_select.radio_sab", "DI Funky House") %} http://pub1.diforfree.org:8000/di_funkyhouse_hi
+        {% elif is_state("input_select.radio_sab", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
+        {% endif %}
+      media_content_type: 'audio/mp4'
+- id: '1589639793830'
+  alias: 'Spegnimento Radio Sabato'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.sab_radio_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.sabato
+      state: 'on'
+    - condition: time
+      weekday: sat
+  action:
+  - service: media_player.media_stop
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_sab", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_sab", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_sab", "Tutti gli speackers") %} group.speackers
+        {% endif %} 
+  - data:
+      message: Web radio spenta
+    service: notify.mobile_app_iphone_slx
+- id: '1589639793831'
+  alias: 'Accensione Radio Domenica'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.dom_radio_inizio.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.domenica
+      state: 'on'
+    - condition: time
+      weekday: sun
+  action:
+  - service: media_player.volume_set
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_dom", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_dom", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_dom", "Tutti gli speackers") %} group.speackers
+        {% endif %}      
+      volume_level: '{{  states.input_number.volume_radio_dom.state  }}'
+  - service: media_player.play_media
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_dom", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_dom", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_dom", "Tutti gli speackers") %} group.speackers
+        {% endif %}
+      media_content_id: >
+        {% if is_state("input_select.radio_dom", "Radio-105") %} http://icecast.unitedradio.it/Radio105.mp3
+        {% elif is_state("input_select.radio_dom", "Radiodeejay") %} http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8
+        {% elif is_state("input_select.radio_dom", "RTL") %} http://shoutcast.rtl.it:3010
+        {% elif is_state("input_select.radio_dom", "Radio Kiss Kiss") %} http://ice07.fluidstream.net:8080/KissKiss.mp3
+        {% elif is_state("input_select.radio_dom", "Radio Capital") %} http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8
+        {% elif is_state("input_select.radio_dom", "Virgin Radio") %} http://icecast.unitedradio.it/Virgin.mp3
+        {% elif is_state("input_select.radio_dom", "M2O") %} http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8
+        {% elif is_state("input_select.radio_dom", "Discoradio") %} http://46.37.20.206:1935/live/1discoradio.stream/playlist.m3u8
+        {% elif is_state("input_select.radio_dom", "Nova 93-7") %} http://streaming.novaentertainment.com.au/nova937
+        {% elif is_state("input_select.radio_dom", "Raw FM (dance)") %} http://stream.rawfm.com.au:8000/;stream.nsv
+        {% elif is_state("input_select.radio_dom", "181FM Power (Todays Hits)") %} http://listen.181fm.com/181-power_128k.mp3?
+        {% elif is_state("input_select.radio_dom", "181FM 90's Dance") %} http://listen.181fm.com/181-90sdance_128k.mp3
+        {% elif is_state("input_select.radio_dom", "181FM Star 90's") %} http://listen.181fm.com/181-star90s_128k.mp3
+        {% elif is_state("input_select.radio_dom", "Radio Z") %} http://shoutcast.rtl.it:3030/stream/1/
+        {% elif is_state("input_select.radio_dom", "DI Chill & Tropical House") %} http://pub1.diforfree.org:8000/di_chillntropicalhouse_hi
+        {% elif is_state("input_select.radio_dom", "DI Disco House") %} http://pub1.diforfree.org:8000/di_discohouse_hi
+        {% elif is_state("input_select.radio_dom", "DI Funky House") %} http://pub1.diforfree.org:8000/di_funkyhouse_hi
+        {% elif is_state("input_select.radio_dom", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
+        {% endif %}
+      media_content_type: 'audio/mp4'
+- id: '1589639793832'
+  alias: 'Spegnimento Radio Domenica'
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.dom_radio_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.domenica
+      state: 'on'
+    - condition: time
+      weekday: sun
+  action:
+  - service: media_player.media_stop
+    data_template:
+      entity_id: >
+        {% if is_state("input_select.speackers_dom", "Soggiorno") %} media_player.soggiorno
+        {% elif is_state("input_select.speackers_dom", "Camera matrimoniale") %} media_player.camera_matrimoniale
+        {% elif is_state("input_select.speackers_dom", "Tutti gli speackers") %} group.speackers
+        {% endif %} 
+  - data:
+      message: Web radio spenta
+    service: notify.mobile_app_iphone_slx
+    
+script:
+  radio:
+    alias: Play Radio ON 
+    sequence:
+      - service: media_player.volume_set          
+        data_template:
+          entity_id: >
+            {% if is_state("input_select.speackers_radio", "Soggiorno") %} media_player.soggiorno
+            {% elif is_state("input_select.speackers_radio", "Camera matrimoniale") %} media_player.camera_matrimoniale
+            {% elif is_state("input_select.speackers_radio", "Tutti gli speackers") %} group.speackers
+            {% endif %}
+          volume_level: '{{  states.input_number.volume_radio.state  }}'
+      - service: media_player.play_media
+        data_template:
+          entity_id: >
+            {% if is_state("input_select.speackers_radio", "Soggiorno") %} media_player.soggiorno
+            {% elif is_state("input_select.speackers_radio", "Camera matrimoniale") %} media_player.camera_matrimoniale
+            {% elif is_state("input_select.speackers_radio", "Tutti gli speackers") %} group.speackers
+            {% endif %}
+          media_content_id: >
+            {% if is_state("input_select.radio_station", "Radio-105") %} http://icecast.unitedradio.it/Radio105.mp3
+            {% elif is_state("input_select.radio_station", "Radiodeejay") %} http://radiodeejay-lh.akamaihd.net/i/RadioDeejay_Live_1@189857/master.m3u8
+            {% elif is_state("input_select.radio_station", "RTL") %} http://shoutcast.rtl.it:3010
+            {% elif is_state("input_select.radio_station", "Radio Kiss Kiss") %} http://ice07.fluidstream.net:8080/KissKiss.mp3
+            {% elif is_state("input_select.radio_station", "Radio Capital") %} http://radiocapital-lh.akamaihd.net/i/RadioCapital_Live_1@196312/master.m3u8
+            {% elif is_state("input_select.radio_station", "Virgin Radio") %} http://icecast.unitedradio.it/Virgin.mp3
+            {% elif is_state("input_select.radio_station", "M2O") %} http://radiom2o-lh.akamaihd.net/i/RadioM2o_Live_1@42518/master.m3u8
+            {% elif is_state("input_select.radio_station", "Discoradio") %} http://46.37.20.206:1935/live/1discoradio.stream/playlist.m3u8
+            {% elif is_state("input_select.radio_station", "Nova 93-7") %} http://streaming.novaentertainment.com.au/nova937
+            {% elif is_state("input_select.radio_station", "Raw FM (dance)") %} http://stream.rawfm.com.au:8000/;stream.nsv
+            {% elif is_state("input_select.radio_station", "181FM Power (Todays Hits)") %} http://listen.181fm.com/181-power_128k.mp3?
+            {% elif is_state("input_select.radio_station", "181FM 90's Dance") %} http://listen.181fm.com/181-90sdance_128k.mp3
+            {% elif is_state("input_select.radio_station", "181FM Star 90's") %} http://listen.181fm.com/181-star90s_128k.mp3
+            {% elif is_state("input_select.radio_station", "Radio Z") %} http://shoutcast.rtl.it:3030/stream/1/
+            {% elif is_state("input_select.radio_station", "DI Chill & Tropical House") %} http://pub1.diforfree.org:8000/di_chillntropicalhouse_hi
+            {% elif is_state("input_select.radio_station", "DI Disco House") %} http://pub1.diforfree.org:8000/di_discohouse_hi
+            {% elif is_state("input_select.radio_station", "DI Funky House") %} http://pub1.diforfree.org:8000/di_funkyhouse_hi
+            {% elif is_state("input_select.radio_station", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
+            {% endif %}
+          media_content_type: 'audio/mp4'
+
+###########################
+##scrpt reset timer radio##
+###########################
+
+  script_reset_timer_radio_lunedi:
+    alias: Reset_timer_radio_lunedi
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.lun_radio_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.lun_radio_fine
+          time: 00:00:00
+  script_reset_timer_radio_martedi:
+    alias: Reset_timer_radio_martedi
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.mar_radio_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.mar_radio_fine
+          time: 00:00:00
+  script_reset_timer_radio_mercoledi:
+    alias: Reset_timer_radio_mercoledi
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.mer_radio_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.mer_radio_fine
+          time: 00:00:00
+  script_reset_timer_radio_giovedi:
+    alias: Reset_timer_radio_giovedi
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.gio_radio_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.gio_radio_fine
+          time: 00:00:00
+  script_reset_timer_radio_venerdi:
+    alias: Reset_timer_radio_venerdi
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.ven_radio_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.ven_radio_fine
+          time: 00:00:00
+  script_reset_timer_radio_sabato:
+    alias: Reset_timer_radio_sabato
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.sab_radio_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.sab_radio_fine
+          time: 00:00:00
+  script_reset_timer_radio_domenica:
+    alias: Reset_timer_radio_domenica
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.dom_radio_inizio
+          time: 00:00:00
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.dom_radio_fine
+          time: 00:00:00
+          
+########
+# Week #
+########
+  
+input_boolean:
+
+  lunedi:
+    name: Lunedì
+
+  martedi:
+    name: Martedì
+
+  mercoledi:
+    name: Mercoledì
+
+  giovedi:
+    name: Giovedì
+
+  venerdi:
+    name: Venerdì
+
+  sabato:
+    name: Sabato
+
+  domenica:
+    name: Domenica
