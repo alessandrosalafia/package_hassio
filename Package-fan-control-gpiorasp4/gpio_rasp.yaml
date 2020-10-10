@@ -1,0 +1,166 @@
+binary_sensor:
+  - platform: remote_rpi_gpio
+    host: 192.168.1.12
+    ports:
+      17: Tamper SX
+      27: Tamper DX
+    pull_mode: DOWN
+    bouncetime: 300
+    scan_interval: 10
+
+light:
+  - platform: rpi_gpio_pwm
+    leds:
+      - name: Controllo ventola SX
+        driver: gpio
+        pins: [22]
+        type: simple
+
+  - platform: rpi_gpio_pwm
+    leds:
+      - name: Controllo ventola DX
+        driver: gpio
+        pins: [23]
+        type: simple
+
+input_number:
+  setpoint_ventola_sx:
+    name: Setpoint ventola SX
+    icon: mdi:fan-alert
+    min: 20
+    max: 60
+    step: 1
+  setpoint_ventola_dx:
+    name: Setpoint ventola DX
+    icon: mdi:fan-alert
+    min: 20
+    max: 60
+    step: 1
+    
+####################
+#### Ventola SX ####
+####################
+
+automation:
+- id: '1483575463218'
+  alias: 'Controllo Ventola Raffreddamento Velocity 1 SX'
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.sx_temperature') < states('input_number.setpoint_ventola_sx') }}"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 10
+  action:
+  - service: light.turn_on
+    entity_id: light.controllo_ventola_sx
+    data: 
+      brightness: 75
+- id: '1483575463219'
+  alias: 'Controllo Ventola Raffreddamento Velocity 2 SX'
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.sx_temperature') < states('input_number.setpoint_ventola_sx') }}"
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+  action:
+  - service: light.turn_on
+    entity_id: light.controllo_ventola_sx
+    data: 
+      brightness: 175
+- id: '1483575463220'
+  alias: 'Controllo Ventola Raffreddamento Velocity 3 SX'
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.sx_temperature') < states('input_number.setpoint_ventola_sx') }}"
+    for:
+      hours: 0
+      minutes: 10
+      seconds: 0
+  action:
+  - service: light.turn_on
+    entity_id: light.controllo_ventola_sx
+    data: 
+      brightness: 255
+- id: '1483575463221'
+  alias: 'Spegnimento Ventola Raffreddamento SX'
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.sx_temperature') > states('input_number.setpoint_ventola_sx') }}"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 30
+  action:
+  - service: light.turn_off
+    entity_id: light.controllo_ventola_sx
+    
+####################
+#### Ventola DX ####
+####################
+    
+- id: '1483575463222'
+  alias: 'Controllo Ventola Raffreddamento Velocity 1 DX'
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.dx_temperature') < states('input_number.setpoint_ventola_dx') }}"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 10
+  action:
+  - service: light.turn_on
+    entity_id: light.controllo_ventola_dx
+    data: 
+      brightness: 75
+- id: '1483575463223'
+  alias: 'Controllo Ventola Raffreddamento Velocity 2 DX'
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.dx_temperature') < states('input_number.setpoint_ventola_dx') }}"
+    for:
+      hours: 0
+      minutes: 5
+      seconds: 0
+  action:
+  - service: light.turn_on
+    entity_id: light.controllo_ventola_dx
+    data: 
+      brightness: 175
+- id: '1483575463224'
+  alias: 'Controllo Ventola Raffreddamento Velocity 3 DX'
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.dx_temperature') < states('input_number.setpoint_ventola_dx') }}"
+    for:
+      hours: 0
+      minutes: 10
+      seconds: 0
+  action:
+  - service: light.turn_on
+    entity_id: light.controllo_ventola_dx
+    data: 
+      brightness: 255
+- id: '1483575463225'
+  alias: 'Spegnimento Ventola Raffreddamento DX'
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.dx_temperature') > states('input_number.setpoint_ventola_dx') }}"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 30
+  action:
+  - service: light.turn_off
+    entity_id: light.controllo_ventola_dx
+    
