@@ -1,0 +1,91 @@
+input_boolean:
+  spegnimento_presa_bagno:
+    name: Spegnimento presa bagno
+    
+input_datetime:
+  minuti_timer_presa_bagno:
+    name: Timer presa bagno
+    icon: 'mdi:timer-outline'
+    has_date: false
+    has_time: true
+    
+  ultimo_spegnimento_presa_bagno:
+    name: Ultimo Off presa bagno
+    has_date: true
+    has_time: true
+    
+###########################
+##scrpt reset timer presa##
+###########################
+script:
+  script_reset_timer_presa_bagno:
+    alias: Reset_timer_presa_bagno
+    sequence:
+      - service: input_datetime.set_datetime
+        data:
+          entity_id: input_datetime.minuti_timer_presa_bagno
+          time: 00:00:00
+    
+####################
+#### automation ####
+####################
+    
+automation:    
+- id: '159356488899'
+  alias: 'Timer spegnimento presa bagno'
+  description: ''
+  initial_state: true
+  trigger:
+  - platform: template
+    value_template: "{{ states('sensor.time') == (states.input_datetime.minuti_timer_presa_bagno.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
+  condition:
+    - condition: state
+      entity_id: input_boolean.spegnimento_presa_bagno
+      state: 'on'
+  action:
+  - service: switch.turn_off
+    entity_id: switch.presa_bagno
+  - service: script.turn_on
+    entity_id: script.script_reset_timer_presa_bagno
+  - service: input_boolean.turn_off
+    entity_id: input_boolean.spegnimento_presa_bagno
+  - data:
+      message: Presa bagno spenta
+    service: notify.mobile_app_iphone_slx
+    
+######################################
+####ultimo spegnimento presa bagno####
+######################################
+
+- id: '1589639955489'
+  alias: 'Ultimo spegnimento presa bagno'
+  trigger:
+  - platform: state
+    entity_id: switch.presa_bagno
+    from: 'off'
+    to: 'on'
+  action:
+  - service: input_datetime.set_datetime
+    data_template:
+      entity_id: input_datetime.ultimo_spegnimento_presa_bagno
+      time: '{{ (as_timestamp(now()) | timestamp_custom("%H:%M:%S", true)) }}'
+      date: '{{ (as_timestamp(now()) | timestamp_custom("%Y-%m-%d", true)) }}'
+    
+######################################
+####Accensione presa bagno a tempo####
+######################################
+
+- id: '159356488880'
+  alias: 'Accensione presa bagno a tempo'
+  description: ''
+  initial_state: true    
+  trigger:
+  - platform: time
+    at: "06:00:00"
+  condition:
+    - condition: state
+      entity_id: switch.presa_bagno
+      state: "off"
+  action:
+    - service: switch.turn_on
+      entity_id: switch.presa_bagno
