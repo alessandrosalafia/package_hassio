@@ -7,160 +7,162 @@ binary_sensor:
     pull_mode: DOWN
     bouncetime: 300
     scan_interval: 10
-
+    
+switch:
+  - platform: remote_rpi_gpio
+    host: 192.168.1.12
+    ports:
+      23: Controllo Temp. DX
+      22: Controllo Temp. SX
+      
 light:
   - platform: rpi_gpio_pwm
     leds:
-      - name: Controllo ventola SX
+      - name: Fan Vano SX
         driver: gpio
-        pins: [22]
+        pins: [33]
         type: simple
 
-  - platform: rpi_gpio_pwm
-    leds:
-      - name: Controllo ventola DX
-        driver: gpio
-        pins: [23]
-        type: simple
-
-input_number:
-  setpoint_ventola_sx:
-    name: Setpoint ventola SX
-    icon: mdi:fan-alert
-    min: 20
-    max: 60
-    step: 1
-  setpoint_ventola_dx:
-    name: Setpoint ventola DX
-    icon: mdi:fan-alert
-    min: 20
-    max: 60
-    step: 1
+climate:
+  - platform: generic_thermostat
+    name: Vano SX
+    heater: switch.controllo_temp_sx
+    target_sensor: sensor.sx_sensor
+    min_temp: 20
+    max_temp: 55
+    ac_mode: true
+    target_temp: 28
+    cold_tolerance: 3
+    hot_tolerance: 2
+    min_cycle_duration:
+      seconds: 30
+    keep_alive:
+      minutes: 5
+    initial_hvac_mode: "cool"
     
-####################
-#### Ventola SX ####
-####################
+  - platform: generic_thermostat
+    name: Vano DX
+    heater: switch.controllo_temp_dx
+    target_sensor: sensor.dx_sensor
+    min_temp: 20
+    max_temp: 55
+    ac_mode: true
+    target_temp: 27
+    cold_tolerance: 3
+    hot_tolerance: 2
+    min_cycle_duration:
+      seconds: 30
+    keep_alive:
+      minutes: 5
+    initial_hvac_mode: "cool"
+    
+input_datetime:
+  ultima_accensione_ventola_sx:
+    name: Ultima accensione ventola SX
+    has_date: true
+    has_time: true
+    
+  ultima_accensione_ventola_dx:
+    name: Ultima accensione ventola DX
+    has_date: true
+    has_time: true
+    
+  ultimo_spegnimento_ventola_sx:
+    name: Ultimo spegnimento ventola SX
+    has_date: true
+    has_time: true
+    
+  ultimo_spegnimento_ventola_dx:
+    name: Ultimo spegnimento ventola DX
+    has_date: true
+    has_time: true   
+
 
 automation:
-- id: '1483575463218'
-  alias: 'Controllo Ventola Raffreddamento Velocity 1 SX'
-  initial_state: true
+- id: '198945895250'
+  alias: ' Sblocco ventole quando fuori casa'
   trigger:
-  - platform: template
-    value_template: "{{ states('sensor.sx_temperature') < states('input_number.setpoint_ventola_sx') }}"
-    for:
-      hours: 0
-      minutes: 0
-      seconds: 10
+    - platform: state
+      entity_id: alarm_control_panel.centrale_allarme
+      to: 'armed_away'
+  condition:
+    - condition: state
+      entity_id: group.famiglia
+      state: 'not_home'
   action:
-  - service: light.turn_on
-    entity_id: light.controllo_ventola_sx
-    data: 
-      brightness: 75
-- id: '1483575463219'
-  alias: 'Controllo Ventola Raffreddamento Velocity 2 SX'
-  initial_state: true
+    - service: climate.turn_on
+      entity_id: climate.vano_sx
+    - service: climate.turn_on
+      entity_id: climate.vano_dx
+     
+- id: '198945895251'
+  alias: ' Blocco ventole quando a casa'
   trigger:
-  - platform: template
-    value_template: "{{ states('sensor.sx_temperature') < states('input_number.setpoint_ventola_sx') }}"
-    for:
-      hours: 0
-      minutes: 5
-      seconds: 0
+    - platform: state
+      entity_id: alarm_control_panel.centrale_allarme
+      to: 'disarmed'
+  condition:
+    - condition: state
+      entity_id: group.famiglia
+      state: 'home'
   action:
-  - service: light.turn_on
-    entity_id: light.controllo_ventola_sx
-    data: 
-      brightness: 175
-- id: '1483575463220'
-  alias: 'Controllo Ventola Raffreddamento Velocity 3 SX'
-  initial_state: true
+    - service: climate.turn_off
+      entity_id: climate.vano_sx
+    - service: climate.turn_off
+      entity_id: climate.vano_dx
+     
+- id: '1989639954001'
+  alias: 'Ultima accensione ventola SX'
   trigger:
-  - platform: template
-    value_template: "{{ states('sensor.sx_temperature') < states('input_number.setpoint_ventola_sx') }}"
-    for:
-      hours: 0
-      minutes: 10
-      seconds: 0
+  - platform: state
+    entity_id: switch.controllo_temp_sx
+    from: 'off'
+    to: 'on'
   action:
-  - service: light.turn_on
-    entity_id: light.controllo_ventola_sx
-    data: 
-      brightness: 255
-- id: '1483575463221'
-  alias: 'Spegnimento Ventola Raffreddamento SX'
-  initial_state: true
+  - service: input_datetime.set_datetime
+    data_template:
+      entity_id: input_datetime.ultima_accensione_ventola_sx
+      time: '{{ (as_timestamp(now()) | timestamp_custom("%H:%M:%S", true)) }}'
+      date: '{{ (as_timestamp(now()) | timestamp_custom("%Y-%m-%d", true)) }}'
+      
+- id: '1989639954002'
+  alias: 'Ultima accensione ventola DX'
   trigger:
-  - platform: template
-    value_template: "{{ states('sensor.sx_temperature') > states('input_number.setpoint_ventola_sx') }}"
-    for:
-      hours: 0
-      minutes: 0
-      seconds: 30
+  - platform: state
+    entity_id: switch.controllo_temp_dx
+    from: 'off'
+    to: 'on'
   action:
-  - service: light.turn_off
-    entity_id: light.controllo_ventola_sx
-    
-####################
-#### Ventola DX ####
-####################
-    
-- id: '1483575463222'
-  alias: 'Controllo Ventola Raffreddamento Velocity 1 DX'
-  initial_state: true
+  - service: input_datetime.set_datetime
+    data_template:
+      entity_id: input_datetime.ultima_accensione_ventola_dx
+      time: '{{ (as_timestamp(now()) | timestamp_custom("%H:%M:%S", true)) }}'
+      date: '{{ (as_timestamp(now()) | timestamp_custom("%Y-%m-%d", true)) }}'
+
+- id: '1989639954003'
+  alias: 'Ultimo spegnimento ventola SX'
   trigger:
-  - platform: template
-    value_template: "{{ states('sensor.dx_temperature') < states('input_number.setpoint_ventola_dx') }}"
-    for:
-      hours: 0
-      minutes: 0
-      seconds: 10
+  - platform: state
+    entity_id: switch.controllo_temp_sx
+    from: 'on'
+    to: 'off'
   action:
-  - service: light.turn_on
-    entity_id: light.controllo_ventola_dx
-    data: 
-      brightness: 75
-- id: '1483575463223'
-  alias: 'Controllo Ventola Raffreddamento Velocity 2 DX'
-  initial_state: true
+  - service: input_datetime.set_datetime
+    data_template:
+      entity_id: input_datetime.ultimo_spegnimento_ventola_sx
+      time: '{{ (as_timestamp(now()) | timestamp_custom("%H:%M:%S", true)) }}'
+      date: '{{ (as_timestamp(now()) | timestamp_custom("%Y-%m-%d", true)) }}'
+      
+- id: '1989639956004'
+  alias: 'Ultimo spegnimento ventola DX'
   trigger:
-  - platform: template
-    value_template: "{{ states('sensor.dx_temperature') < states('input_number.setpoint_ventola_dx') }}"
-    for:
-      hours: 0
-      minutes: 5
-      seconds: 0
+  - platform: state
+    entity_id: switch.controllo_temp_dx
+    from: 'on'
+    to: 'off'
   action:
-  - service: light.turn_on
-    entity_id: light.controllo_ventola_dx
-    data: 
-      brightness: 175
-- id: '1483575463224'
-  alias: 'Controllo Ventola Raffreddamento Velocity 3 DX'
-  initial_state: true
-  trigger:
-  - platform: template
-    value_template: "{{ states('sensor.dx_temperature') < states('input_number.setpoint_ventola_dx') }}"
-    for:
-      hours: 0
-      minutes: 10
-      seconds: 0
-  action:
-  - service: light.turn_on
-    entity_id: light.controllo_ventola_dx
-    data: 
-      brightness: 255
-- id: '1483575463225'
-  alias: 'Spegnimento Ventola Raffreddamento DX'
-  initial_state: true
-  trigger:
-  - platform: template
-    value_template: "{{ states('sensor.dx_temperature') > states('input_number.setpoint_ventola_dx') }}"
-    for:
-      hours: 0
-      minutes: 0
-      seconds: 30
-  action:
-  - service: light.turn_off
-    entity_id: light.controllo_ventola_dx
-    
+  - service: input_datetime.set_datetime
+    data_template:
+      entity_id: input_datetime.ultimo_spegnimento_ventola_dx
+      time: '{{ (as_timestamp(now()) | timestamp_custom("%H:%M:%S", true)) }}'
+      date: '{{ (as_timestamp(now()) | timestamp_custom("%Y-%m-%d", true)) }}'
