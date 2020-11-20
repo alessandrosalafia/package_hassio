@@ -1,0 +1,11 @@
+entities:
+  - entity: input_select.radio_station
+    icon: 'mdi:radio'
+  - entity: input_select.speackers_radio
+  - entity: media_player.soggiorno
+  - entity: media_player.camera_matrimoniale
+  - entity: script.radio
+    icon: 'mdi:play'
+show_header_toggle: false
+title: Web Radio
+type: entities
