@@ -1,16 +1,16 @@
+#####################
+## speackers group ##
+#####################
 group:
-  radio:
-    name: Radio
-    entities:
-    - input_select.radio_station
-    - input_select.speackers_radio
-    - script.radio
-    
   speackers:
     name: Speackers
     entities:
     - media_player.camera_matrimoniale
     - media_player.soggiorno
+    
+##################
+## input select ##
+##################
 
 input_select:
   radio_station:
@@ -192,7 +192,10 @@ input_select:
       - DI Liquid D&B
     icon: mdi:radio
 
-
+######################
+## singol speackers ##
+######################
+    
   speackers_radio:
     name: 'Select Speakers:'
     options:
@@ -257,6 +260,11 @@ input_select:
       - Tutti gli speackers
     initial: Soggiorno
     icon: mdi:google-home
+
+##################
+## input number ##
+##################
+
 
 input_number: 
   volume_radio:
@@ -383,6 +391,35 @@ input_datetime:
     icon: 'mdi:timer-outline'
     has_date: false
     has_time: true
+    
+    
+########
+# Week #
+########
+  
+input_boolean:
+
+  lunedi:
+    name: Lunedì
+
+  martedi:
+    name: Martedì
+
+  mercoledi:
+    name: Mercoledì
+
+  giovedi:
+    name: Giovedì
+
+  venerdi:
+    name: Venerdì
+
+  sabato:
+    name: Sabato
+
+  domenica:
+    name: Domenica
+
 
 ########################        
 ####Radio Automation####        
@@ -458,7 +495,7 @@ automation:
         {% endif %}        
   - data:
       message: Web radio spenta
-    service: notify.mobile_app_iphone_slx
+    service: notify.mobile_app_poco_f2
 - id: '1589639793821'
   alias: 'Accensione Radio Martedì'
   trigger:
@@ -528,7 +565,7 @@ automation:
         {% endif %}
   - data:
       message: Web radio spenta
-    service: notify.mobile_app_iphone_slx
+    service: notify.mobile_app_poco_f2
 - id: '1589639793823'
   alias: 'Accensione Radio Mercoledì'
   trigger:
@@ -598,7 +635,7 @@ automation:
         {% endif %}
   - data:
       message: Web radio spenta
-    service: notify.mobile_app_iphone_slx
+    service: notify.mobile_app_poco_f2
 - id: '1589639793825'
   alias: 'Accensione Radio Giovedì'
   trigger:
@@ -668,7 +705,7 @@ automation:
         {% endif %} 
   - data:
       message: Web radio spenta
-    service: notify.mobile_app_iphone_slx
+    service: notify.mobile_app_poco_f2
 - id: '1589639793827'
   alias: 'Accensione Radio Venerdì'
   trigger:
@@ -738,7 +775,7 @@ automation:
         {% endif %} 
   - data:
       message: Web radio spenta
-    service: notify.mobile_app_iphone_slx
+    service: notify.mobile_app_poco_f2
 - id: '1589639793829'
   alias: 'Accensione Radio Sabato'
   trigger:
@@ -808,7 +845,7 @@ automation:
         {% endif %} 
   - data:
       message: Web radio spenta
-    service: notify.mobile_app_iphone_slx
+    service: notify.mobile_app_poco_f2
 - id: '1589639793831'
   alias: 'Accensione Radio Domenica'
   trigger:
@@ -857,6 +894,7 @@ automation:
         {% elif is_state("input_select.radio_dom", "DI Liquid D&B") %} http://pub1.diforfree.org:8000/di_liquiddnb_hi
         {% endif %}
       media_content_type: 'audio/mp4'
+      
 - id: '1589639793832'
   alias: 'Spegnimento Radio Domenica'
   trigger:
@@ -878,7 +916,11 @@ automation:
         {% endif %} 
   - data:
       message: Web radio spenta
-    service: notify.mobile_app_iphone_slx
+    service: notify.mobile_app_poco_f2
+
+############
+## script ##
+############
     
 script:
   radio:
@@ -1003,29 +1045,3 @@ script:
           entity_id: input_datetime.dom_radio_fine
           time: 00:00:00
           
-########
-# Week #
-########
-  
-input_boolean:
-
-  lunedi:
-    name: Lunedì
-
-  martedi:
-    name: Martedì
-
-  mercoledi:
-    name: Mercoledì
-
-  giovedi:
-    name: Giovedì
-
-  venerdi:
-    name: Venerdì
-
-  sabato:
-    name: Sabato
-
-  domenica:
-    name: Domenica
