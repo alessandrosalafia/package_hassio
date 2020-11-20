@@ -1,0 +1,79 @@
+entities:
+  - entity: input_select.radio_lun
+  - entity: input_select.speackers_lun
+  - entity: input_number.volume_radio_lun
+    name: Volume set Lun.
+  - entity: sensor.time
+    name: Ora attuale
+  - entity: input_datetime.lun_radio_inizio
+  - entity: input_datetime.lun_radio_fine
+  - entity: script.script_reset_timer_radio_lunedi
+    icon: 'mdi:backspace-reverse-outline'
+    name: Reset orari lunedì
+  - entity: input_select.radio_mar
+  - entity: input_select.speackers_mar
+  - entity: input_number.volume_radio_mar
+    name: Volume set Mar.
+  - entity: sensor.time
+    name: Ora attuale
+  - entity: input_datetime.mar_radio_inizio
+  - entity: input_datetime.mar_radio_fine
+  - entity: script.script_reset_timer_radio_martedi
+    icon: 'mdi:backspace-reverse-outline'
+    name: Reset orari martedì
+  - entity: input_select.radio_mer
+  - entity: input_select.speackers_mer
+  - entity: input_number.volume_radio_mer
+    name: Volume set Mer.
+  - entity: sensor.time
+    name: Ora attuale
+  - entity: input_datetime.mer_radio_inizio
+  - entity: input_datetime.mer_radio_fine
+  - entity: script.script_reset_timer_radio_mercoledi
+    icon: 'mdi:backspace-reverse-outline'
+    name: Reset orari mercoledì
+  - entity: input_select.radio_gio
+  - entity: input_select.speackers_gio
+  - entity: input_number.volume_radio_gio
+    name: Volume set Gio.
+  - entity: sensor.time
+    name: Ora attuale
+  - entity: input_datetime.gio_radio_inizio
+  - entity: input_datetime.gio_radio_fine
+  - entity: script.script_reset_timer_radio_giovedi
+    icon: 'mdi:backspace-reverse-outline'
+    name: Reset orari giovedì
+  - entity: input_select.radio_ven
+  - entity: input_select.speackers_ven
+  - entity: input_number.volume_radio_ven
+    name: Volume set Ven.
+  - entity: input_datetime.ven_radio_inizio
+  - entity: input_datetime.ven_radio_fine
+  - entity: script.script_reset_timer_radio_venerdi
+    icon: 'mdi:backspace-reverse-outline'
+    name: Reset orari venerdì
+  - entity: input_select.radio_sab
+  - entity: input_select.speackers_sab
+  - entity: input_number.volume_radio_sab
+    name: Volume set Sab.
+  - entity: sensor.time
+    name: Ora attuale
+  - entity: input_datetime.sab_radio_inizio
+  - entity: input_datetime.sab_radio_fine
+  - entity: script.script_reset_timer_radio_sabato
+    icon: 'mdi:backspace-reverse-outline'
+    name: Reset orari sabato
+  - entity: input_select.radio_dom
+  - entity: input_select.speackers_dom
+  - entity: input_number.volume_radio_dom
+    name: Volume set Dom.
+  - entity: sensor.time
+    name: Ora attuale
+  - entity: input_datetime.dom_radio_inizio
+  - entity: input_datetime.dom_radio_fine
+  - entity: script.script_reset_timer_radio_domenica
+    icon: 'mdi:backspace-reverse-outline'
+    name: Reset orari domenica
+show_header_toggle: false
+title: Set sveglia Radio Web
+type: entities
