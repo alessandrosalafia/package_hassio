@@ -1,0 +1,11 @@
+entities:
+  - entity: input_boolean.lunedi
+  - entity: input_boolean.martedi
+  - entity: input_boolean.mercoledi
+  - entity: input_boolean.giovedi
+  - entity: input_boolean.venerdi
+  - entity: input_boolean.sabato
+  - entity: input_boolean.domenica
+show_header_toggle: false
+title: Week
+type: entities
