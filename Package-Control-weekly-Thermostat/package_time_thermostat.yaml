@@ -584,12 +584,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 1 camera fine
+  setpoint_fascia_1_camera_lunedi_fine:
+    name: Set-point Camera fascia 1 Lun. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 2 camera
   setpoint_fascia_2_camera_lunedi:
     name: Set-point Camera fascia 2 Lun.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 camera fine
+  setpoint_fascia_2_camera_lunedi_fine:
+    name: Set-point Camera fascia 2 Lun. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 camera
   setpoint_fascia_3_camera_lunedi:
@@ -598,12 +612,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 3 camera fine
+  setpoint_fascia_3_camera_lunedi_fine:
+    name: Set-point Camera fascia 3 Lun. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 4 camera
   setpoint_fascia_4_camera_lunedi:
     name: Set-point Camera fascia 4 Lun.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 4 camera fine
+  setpoint_fascia_4_camera_lunedi_fine:
+    name: Set-point Camera fascia 4 Lun. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 1 camera
   setpoint_fascia_1_camera_martedi:
@@ -612,12 +640,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 1 camera fine
+  setpoint_fascia_1_camera_martedi_fine:
+    name: Set-point Camera fascia 1 Mar. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 2 camera
   setpoint_fascia_2_camera_martedi:
     name: Set-point Camera fascia 2 Mar.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 camera fine
+  setpoint_fascia_2_camera_martedi_fine:
+    name: Set-point Camera fascia 2 Mar. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 camera
   setpoint_fascia_3_camera_martedi:
@@ -626,12 +668,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 3 camera fine
+  setpoint_fascia_3_camera_martedi_fine:
+    name: Set-point Camera fascia 3 Mar. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 4 camera
   setpoint_fascia_4_camera_martedi:
     name: Set-point Camera fascia 4 Mar.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 4 camera fine
+  setpoint_fascia_4_camera_martedi_fine:
+    name: Set-point Camera fascia 4 Mar. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 1 camera
   setpoint_fascia_1_camera_mercoledi:
@@ -640,12 +696,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 1 camera fine
+  setpoint_fascia_1_camera_mercoledi_fine:
+    name: Set-point Camera fascia 1 Mer. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 2 camera
   setpoint_fascia_2_camera_mercoledi:
     name: Set-point Camera fascia 2 Mer.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 camera fine
+  setpoint_fascia_2_camera_mercoledi_fine:
+    name: Set-point Camera fascia 2 Mer. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 camera
   setpoint_fascia_3_camera_mercoledi:
@@ -654,12 +724,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 3 camera fine
+  setpoint_fascia_3_camera_mercoledi_fine:
+    name: Set-point Camera fascia 3 Mer. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 4 camera
   setpoint_fascia_4_camera_mercoledi:
     name: Set-point Camera fascia 4 Mer.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 4 camera fine
+  setpoint_fascia_4_camera_mercoledi_fine:
+    name: Set-point Camera fascia 4 Mer. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 1 camera
   setpoint_fascia_1_camera_giovedi:
@@ -668,12 +752,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 1 camera fine
+  setpoint_fascia_1_camera_giovedi_fine:
+    name: Set-point Camera fascia 1 Gio. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 2 camera
   setpoint_fascia_2_camera_giovedi:
     name: Set-point Camera fascia 2 Gio.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 camera fine
+  setpoint_fascia_2_camera_giovedi_fine:
+    name: Set-point Camera fascia 2 Gio. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 camera
   setpoint_fascia_3_camera_giovedi:
@@ -682,12 +780,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 3 camera fine
+  setpoint_fascia_3_camera_giovedi_fine:
+    name: Set-point Camera fascia 3 Gio. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 4 camera
   setpoint_fascia_4_camera_giovedi:
     name: Set-point Camera fascia 4 Gio.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 4 camera fine
+  setpoint_fascia_4_camera_giovedi_fine:
+    name: Set-point Camera fascia 4 Gio. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 1 camera
   setpoint_fascia_1_camera_venerdi:
@@ -696,12 +808,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 1 camera fine
+  setpoint_fascia_1_camera_venerdi_fine:
+    name: Set-point Camera fascia 1 Ven. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 2 camera
   setpoint_fascia_2_camera_venerdi:
     name: Set-point Camera fascia 2 Ven.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 camera fine
+  setpoint_fascia_2_camera_venerdi_fine:
+    name: Set-point Camera fascia 2 Ven. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 camera
   setpoint_fascia_3_camera_venerdi:
@@ -710,12 +836,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 3 camera fine
+  setpoint_fascia_3_camera_venerdi_fine:
+    name: Set-point Camera fascia 3 Ven. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 4 camera
   setpoint_fascia_4_camera_venerdi:
     name: Set-point Camera fascia 4 Ven.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 4 camera fine
+  setpoint_fascia_4_camera_venerdi_fine:
+    name: Set-point Camera fascia 4 Ven. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 1 camera
   setpoint_fascia_1_camera_sabato:
@@ -724,12 +864,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 1 camera fine
+  setpoint_fascia_1_camera_sabato_fine:
+    name: Set-point Camera fascia 1 Sab. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 2 camera
   setpoint_fascia_2_camera_sabato:
     name: Set-point Camera fascia 2 Sab.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 camera fine
+  setpoint_fascia_2_camera_sabato_fine:
+    name: Set-point Camera fascia 2 Sab. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 camera
   setpoint_fascia_3_camera_sabato:
@@ -738,12 +892,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 3 camera fine
+  setpoint_fascia_3_camera_sabato_fine:
+    name: Set-point Camera fascia 3 Sab. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 4 camera
   setpoint_fascia_4_camera_sabato:
     name: Set-point Camera fascia 4 Sab.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 4 camera fine
+  setpoint_fascia_4_camera_sabato_fine:
+    name: Set-point Camera fascia 4 Sab. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 1 camera
   setpoint_fascia_1_camera_domenica:
@@ -752,12 +920,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 1 camera fine
+  setpoint_fascia_1_camera_domenica_fine:
+    name: Set-point Camera fascia 1 Dom. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 2 camera
   setpoint_fascia_2_camera_domenica:
     name: Set-point Camera fascia 2 Dom.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 camera fine
+  setpoint_fascia_2_camera_domenica_fine:
+    name: Set-point Camera fascia 2 Dom. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 camera
   setpoint_fascia_3_camera_domenica:
@@ -766,6 +948,13 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 3 camera fine
+  setpoint_fascia_3_camera_domenica_fine:
+    name: Set-point Camera fascia 3 Dom. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 4 camera
   setpoint_fascia_4_camera_domenica:
     name: Set-point Camera fascia 4 Dom.
@@ -773,99 +962,197 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 4 camera fine
+  setpoint_fascia_4_camera_domenica_fine:
+    name: Set-point Camera fascia 4 Dom. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
     
 #soggiorno#
 
 #Sepoint fascia 1 soggiorno
   setpoint_fascia_1_soggiorno_lunedi:
-    name: Set-point soggiorno fascia 1 Lun.
+    name: Set-point Soggiorno fascia 1 Lun.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno fine
+  setpoint_fascia_1_soggiorno_lunedi_fine:
+    name: Set-point Soggiorno fascia 1 Lun. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 2 soggiorno
   setpoint_fascia_2_soggiorno_lunedi:
-    name: Set-point soggiorno fascia 2 Lun.
+    name: Set-point Soggiorno fascia 2 Lun.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno fine
+  setpoint_fascia_2_soggiorno_lunedi_fine:
+    name: Set-point Soggiorno fascia 2 Lun. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 soggiorno
   setpoint_fascia_3_soggiorno_lunedi:
-    name: Set-point soggiorno fascia 3 Lun.
+    name: Set-point Soggiorno fascia 3 Lun.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno fine
+  setpoint_fascia_3_soggiorno_lunedi_fine:
+    name: Set-point Soggiorno fascia 3 Lun. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 4 soggiorno
   setpoint_fascia_4_soggiorno_lunedi:
-    name: Set-point soggiorno fascia 4 Lun.
+    name: Set-point Soggiorno fascia 4 Lun.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno fine
+  setpoint_fascia_4_soggiorno_lunedi_fine:
+    name: Set-point Soggiorno fascia 4 Lun. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 1 soggiorno
   setpoint_fascia_1_soggiorno_martedi:
-    name: Set-point soggiorno fascia 1 Mar.
+    name: Set-point Soggiorno fascia 1 Mar.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno fine
+  setpoint_fascia_1_soggiorno_martedi_fine:
+    name: Set-point Soggiorno fascia 1 Mar. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 2 soggiorno
   setpoint_fascia_2_soggiorno_martedi:
-    name: Set-point soggiorno fascia 2 Mar.
+    name: Set-point Soggiorno fascia 2 Mar.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno fine
+  setpoint_fascia_2_soggiorno_martedi_fine:
+    name: Set-point Soggiorno fascia 2 Mar. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 soggiorno
   setpoint_fascia_3_soggiorno_martedi:
-    name: Set-point soggiorno fascia 3 Mar.
+    name: Set-point Soggiorno fascia 3 Mar.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno fine
+  setpoint_fascia_3_soggiorno_martedi_fine:
+    name: Set-point Soggiorno fascia 3 Mar. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 4 soggiorno
   setpoint_fascia_4_soggiorno_martedi:
-    name: Set-point soggiorno fascia 4 Mar.
+    name: Set-point Soggiorno fascia 4 Mar.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 4 soggiorno fine
+  setpoint_fascia_4_soggiorno_martedi_fine:
+    name: Set-point Soggiorno fascia 4 Mar. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 1 soggiorno
   setpoint_fascia_1_soggiorno_mercoledi:
-    name: Set-point soggiorno fascia 1 Mer.
+    name: Set-point Soggiorno fascia 1 Mer.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno fine
+  setpoint_fascia_1_soggiorno_mercoledi_fine:
+    name: Set-point Soggiorno fascia 1 Mer. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 2 soggiorno
   setpoint_fascia_2_soggiorno_mercoledi:
-    name: Set-point soggiorno fascia 2 Mer.
+    name: Set-point Soggiorno fascia 2 Mer.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 2 soggiorno fine
+  setpoint_fascia_2_soggiorno_mercoledi_fine:
+    name: Set-point Soggiorno fascia 2 Mer. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 3 soggiorno
   setpoint_fascia_3_soggiorno_mercoledi:
-    name: Set-point soggiorno fascia 3 Mer.
+    name: Set-point Soggiorno fascia 3 Mer.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno fine
+  setpoint_fascia_3_soggiorno_mercoledi_fine:
+    name: Set-point Soggiorno fascia 3 Mer. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 4 soggiorno
   setpoint_fascia_4_soggiorno_mercoledi:
-    name: Set-point soggiorno fascia 4 Mer.
+    name: Set-point Soggiorno fascia 4 Mer.
     icon: mdi:thermostat
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 4 soggiorno fine
+  setpoint_fascia_4_soggiorno_mercoledi_fine:
+    name: Set-point Soggiorno fascia 4 Mer. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 1 soggiorno
   setpoint_fascia_1_soggiorno_giovedi:
-    name: Set-point soggiorno fascia 1 Gio.
+    name: Set-point Soggiorno fascia 1 Gio.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno fine
+  setpoint_fascia_1_soggiorno_giovedi_fine:
+    name: Set-point Soggiorno fascia 1 Gio. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 2 soggiorno
   setpoint_fascia_2_soggiorno_giovedi:
@@ -874,12 +1161,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 2 soggiorno fine
+  setpoint_fascia_2_soggiorno_giovedi_fine:
+    name: Set-point Soggiorno fascia 2 Gio. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 3 soggiorno
   setpoint_fascia_3_soggiorno_giovedi:
-    name: Set-point soggiorno fascia 3 Gio.
+    name: Set-point Soggiorno fascia 3 Gio.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno fine
+  setpoint_fascia_3_soggiorno_giovedi_fine:
+    name: Set-point soggiorno fascia 3 Gio. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 4 soggiorno
   setpoint_fascia_4_soggiorno_giovedi:
@@ -888,12 +1189,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 4 soggiorno fine
+  setpoint_fascia_4_soggiorno_giovedi_fine:
+    name: Set-point Soggiorno fascia 4 Gio. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 1 soggiorno
   setpoint_fascia_1_soggiorno_venerdi:
     name: Set-point Soggiorno fascia 1 Ven.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno fine
+  setpoint_fascia_1_soggiorno_venerdi_fine:
+    name: Set-point soggiorno fascia 1 Ven. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 2 soggiorno
   setpoint_fascia_2_soggiorno_venerdi:
@@ -902,12 +1217,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 2 soggiorno fine
+  setpoint_fascia_2_soggiorno_venerdi_fine:
+    name: Set-point soggiorno fascia 2 Ven. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 3 soggiorno
   setpoint_fascia_3_soggiorno_venerdi:
     name: Set-point Soggiorno fascia 3 Ven.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno fine
+  setpoint_fascia_3_soggiorno_venerdi_fine:
+    name: Set-point Soggiorno fascia 3 Ven. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 4 soggiorno
   setpoint_fascia_4_soggiorno_venerdi:
@@ -916,12 +1245,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 4 soggiorno fine
+  setpoint_fascia_4_soggiorno_venerdi_fine:
+    name: Set-point soggiorno fascia 4 Ven. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 1 soggiorno
   setpoint_fascia_1_soggiorno_sabato:
     name: Set-point Soggiorno fascia 1 Sab.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno fine
+  setpoint_fascia_1_soggiorno_sabato_fine:
+    name: Set-point Soggiorno fascia 1 Sab. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 2 soggiorno
   setpoint_fascia_2_soggiorno_sabato:
@@ -930,12 +1273,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 2 soggiorno fine
+  setpoint_fascia_2_soggiorno_sabato_fine:
+    name: Set-point Soggiorno fascia 2 Sab. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 3 soggiorno
   setpoint_fascia_3_soggiorno_sabato:
     name: Set-point Soggiorno fascia 3 Sab.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno fine
+  setpoint_fascia_3_soggiorno_sabato_fine:
+    name: Set-point Soggiorno fascia 3 Sab. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 4 soggiorno
   setpoint_fascia_4_soggiorno_sabato:
@@ -944,12 +1301,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 4 soggiorno fine
+  setpoint_fascia_4_soggiorno_sabato_fine:
+    name: Set-point soggiorno fascia 4 Sab. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 1 soggiorno
   setpoint_fascia_1_soggiorno_domenica:
     name: Set-point Soggiorno fascia 1 Dom.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 1 soggiorno fine
+  setpoint_fascia_1_soggiorno_domenica_fine:
+    name: Set-point Soggiorno fascia 1 Dom. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 2 soggiorno
   setpoint_fascia_2_soggiorno_domenica:
@@ -958,12 +1329,26 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 2 soggiorno fine
+  setpoint_fascia_2_soggiorno_domenica_fine:
+    name: Set-point Soggiorno fascia 2 Dom. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
 #Sepoint fascia 3 soggiorno
   setpoint_fascia_3_soggiorno_domenica:
     name: Set-point Soggiorno fascia 3 Dom.
     icon: mdi:thermostat
     min: 15
     max: 30
+    step: 0.5
+#Sepoint fascia 3 soggiorno fine
+  setpoint_fascia_3_soggiorno_domenica_fine:
+    name: Set-point Soggiorno fascia 3 Dom. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
     step: 0.5
 #Sepoint fascia 4 soggiorno
   setpoint_fascia_4_soggiorno_domenica:
@@ -972,6 +1357,14 @@ input_number:
     min: 15
     max: 30
     step: 0.5
+#Sepoint fascia 4 soggiorno fine
+  setpoint_fascia_4_soggiorno_domenica_fine:
+    name: Set-point Soggiorno fascia 4 Dom. fine
+    icon: mdi:thermostat
+    min: 10
+    max: 18
+    step: 0.5
+
 
     
 #####################
@@ -1479,28 +1872,48 @@ script:
   
 input_boolean:
 
-  monday:
+  monday_camera:
     name: Lun
 
-  tuesday:
+  tuesday_camera:
     name: Mar
 
-  wednesday:
+  wednesday_camera:
     name: Mer
 
-  thursday:
+  thursday_camera:
     name: Gio
 
-  friday:
+  friday_camera:
     name: Ven
 
-  saturday:
+  saturday_camera:
     name: Sab
 
-  sunday:
+  sunday_camera:
     name: Dom 
 
+  monday_soggiorno:
+    name: Lun
 
+  tuesday_soggiorno:
+    name: Mar
+
+  wednesday_soggiorno:
+    name: Mer
+
+  thursday_soggiorno:
+    name: Gio
+
+  friday_soggiorno:
+    name: Ven
+
+  saturday_soggiorno:
+    name: Sab
+
+  sunday_soggiorno:
+    name: Dom 
+    
 ###########################
 #### automation camera ####
 ###########################
@@ -1527,7 +1940,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.monday
+      entity_id: input_boolean.monday_camera
       state: 'on'
     - condition: time
       weekday: mon
@@ -1555,11 +1968,13 @@ automation:
                entity_id: input_boolean.fascia_1_camera_lunedi
                state: 'on'               
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_lunedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -1582,11 +1997,13 @@ automation:
                entity_id: input_boolean.fascia_2_camera_lunedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_lunedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -1609,11 +2026,13 @@ automation:
                entity_id: input_boolean.fascia_3_camera_lunedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_lunedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -1636,11 +2055,13 @@ automation:
                entity_id: input_boolean.fascia_4_camera_lunedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_lunedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426876'
   alias: 'ON/OFF riscaldamento Martedì fascia 1-2-3-4 Camera'
   trigger:
@@ -1662,7 +2083,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.tuesday
+      entity_id: input_boolean.tuesday_camera
       state: 'on'
     - condition: time
       weekday: tue
@@ -1690,11 +2111,13 @@ automation:
                entity_id: input_boolean.fascia_1_camera_martedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_martedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -1717,11 +2140,13 @@ automation:
                entity_id: input_boolean.fascia_2_camera_martedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_martedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -1744,11 +2169,13 @@ automation:
                entity_id: input_boolean.fascia_3_camera_martedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_martedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -1771,11 +2198,13 @@ automation:
                entity_id: input_boolean.fascia_4_camera_martedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_martedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426877'
   alias: 'ON/OFF riscaldamento Mercoledì fascia 1-2-3-4 Camera'
   trigger:
@@ -1797,7 +2226,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.wednesday
+      entity_id: input_boolean.wednesday_camera
       state: 'on'
     - condition: time
       weekday: wed
@@ -1825,11 +2254,13 @@ automation:
                entity_id: input_boolean.fascia_1_camera_mercoledi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_mercoledi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -1852,11 +2283,13 @@ automation:
                entity_id: input_boolean.fascia_2_camera_mercoledi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_mercoledi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -1879,11 +2312,13 @@ automation:
                entity_id: input_boolean.fascia_3_camera_mercoledi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_mercoledi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -1906,11 +2341,13 @@ automation:
                entity_id: input_boolean.fascia_4_camera_mercoledi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_mercoledi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426878'
   alias: 'ON/OFF riscaldamento Giovedì fascia 1-2-3-4 Camera'
   trigger:
@@ -1932,7 +2369,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.thursday
+      entity_id: input_boolean.thursday_camera
       state: 'on'
     - condition: time
       weekday: thu
@@ -1960,11 +2397,13 @@ automation:
                entity_id: input_boolean.fascia_1_camera_giovedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_giovedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -1987,11 +2426,13 @@ automation:
                entity_id: input_boolean.fascia_2_camera_giovedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_giovedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -2014,11 +2455,13 @@ automation:
                entity_id: input_boolean.fascia_3_camera_giovedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_giovedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -2041,11 +2484,13 @@ automation:
                entity_id: input_boolean.fascia_4_camera_giovedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_giovedi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426879'
   alias: 'ON/OFF riscaldamento Venerdì fascia 1-2-3-4 Camera'
   trigger:
@@ -2067,7 +2512,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.friday
+      entity_id: input_boolean.friday_camera
       state: 'on'
     - condition: time
       weekday: fri
@@ -2095,11 +2540,13 @@ automation:
                entity_id: input_boolean.fascia_1_camera_venerdi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_venerdi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -2122,11 +2569,13 @@ automation:
                entity_id: input_boolean.fascia_2_camera_venerdi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_venerdi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -2149,11 +2598,13 @@ automation:
                entity_id: input_boolean.fascia_3_camera_venerdi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_venerdi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -2176,11 +2627,13 @@ automation:
                entity_id: input_boolean.fascia_4_camera_venerdi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_venerdi_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426880'
   alias: 'ON/OFF riscaldamento Sabato fascia 1-2-3-4 Camera'
   trigger:
@@ -2202,7 +2655,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.saturday
+      entity_id: input_boolean.saturday_camera
       state: 'on'
     - condition: time
       weekday: sat
@@ -2230,11 +2683,13 @@ automation:
                entity_id: input_boolean.fascia_1_camera_sabato
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_sabato_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -2257,11 +2712,13 @@ automation:
                entity_id: input_boolean.fascia_2_camera_sabato
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_sabato_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -2284,11 +2741,13 @@ automation:
                entity_id: input_boolean.fascia_3_camera_sabato
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_sabato_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -2311,11 +2770,13 @@ automation:
                entity_id: input_boolean.fascia_4_camera_sabato
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_sabato_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426881'
   alias: 'ON/OFF riscaldamento Domenica fascia 1-2-3-4 Camera'
   trigger:
@@ -2337,7 +2798,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.sunday
+      entity_id: input_boolean.sunday_camera
       state: 'on'
     - condition: time
       weekday: sun
@@ -2365,11 +2826,13 @@ automation:
                entity_id: input_boolean.fascia_1_camera_domenica
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_camera_domenica_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -2389,14 +2852,16 @@ automation:
              - condition: template
                value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_2_dom_camera_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
              - condition: state
-               entity_id: input_boolean.fascia_3_camera_domenica
+               entity_id: input_boolean.fascia_2_camera_domenica
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_camera_domenica_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -2419,11 +2884,13 @@ automation:
                entity_id: input_boolean.fascia_3_camera_domenica
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_camera_domenica_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -2446,11 +2913,13 @@ automation:
                entity_id: input_boolean.fascia_4_camera_domenica
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_camera
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_camera_domenica_fine') }}"
              - data:
                  message: Termostato camera spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
                
 ##############################
 #### automation soggiorno ####
@@ -2477,7 +2946,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_lun_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.monday
+      entity_id: input_boolean.monday_soggiorno
       state: 'on'
     - condition: time
       weekday: mon
@@ -2505,11 +2974,13 @@ automation:
                entity_id: input_boolean.fascia_1_soggiorno_lunedi
                state: 'on'               
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_lunedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -2532,11 +3003,13 @@ automation:
                entity_id: input_boolean.fascia_2_soggiorno_lunedi
                state: 'on'               
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_lunedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -2559,11 +3032,13 @@ automation:
                entity_id: input_boolean.fascia_3_soggiorno_lunedi
                state: 'on'               
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_lunedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -2586,11 +3061,13 @@ automation:
                entity_id: input_boolean.fascia_4_soggiorno_lunedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_lunedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426883'
   alias: 'ON/OFF riscaldamento Martedì fascia 1-2-3-4 soggiorno'
   trigger:
@@ -2612,7 +3089,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mar_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.tuesday
+      entity_id: input_boolean.tuesday_soggiorno
       state: 'on'
     - condition: time
       weekday: tue
@@ -2640,11 +3117,13 @@ automation:
                entity_id: input_boolean.fascia_1_soggiorno_martedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_martedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -2667,11 +3146,13 @@ automation:
                entity_id: input_boolean.fascia_2_soggiorno_martedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_martedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -2694,11 +3175,13 @@ automation:
                entity_id: input_boolean.fascia_3_soggiorno_martedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_martedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -2721,11 +3204,13 @@ automation:
                entity_id: input_boolean.fascia_4_soggiorno_martedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_martedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426884'
   alias: 'ON/OFF riscaldamento Mercoledì fascia 1-2-3-4 soggiorno'
   trigger:
@@ -2747,7 +3232,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_mer_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.wednesday
+      entity_id: input_boolean.wednesday_soggiorno
       state: 'on'
     - condition: time
       weekday: wed
@@ -2775,11 +3260,13 @@ automation:
                entity_id: input_boolean.fascia_1_soggiorno_mercoledi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_mercoledi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -2802,11 +3289,13 @@ automation:
                entity_id: input_boolean.fascia_2_soggiorno_mercoledi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_mercoledi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -2829,11 +3318,13 @@ automation:
                entity_id: input_boolean.fascia_3_soggiorno_mercoledi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_mercoledi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -2856,11 +3347,13 @@ automation:
                entity_id: input_boolean.fascia_4_soggiorno_mercoledi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_mercoledi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426885'
   alias: 'ON/OFF riscaldamento Giovedì fascia 1-2-3-4 soggiorno'
   trigger:
@@ -2882,7 +3375,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_gio_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.thursday
+      entity_id: input_boolean.thursday_soggiorno
       state: 'on'
     - condition: time
       weekday: thu
@@ -2910,11 +3403,13 @@ automation:
                entity_id: input_boolean.fascia_1_soggiorno_giovedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_giovedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -2937,11 +3432,13 @@ automation:
                entity_id: input_boolean.fascia_2_soggiorno_giovedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_giovedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -2964,11 +3461,13 @@ automation:
                entity_id: input_boolean.fascia_3_soggiorno_giovedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_giovedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -2991,11 +3490,13 @@ automation:
                entity_id: input_boolean.fascia_4_soggiorno_giovedi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_giovedi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426886'
   alias: 'ON/OFF riscaldamento Venerdì fascia 1-2-3-4 soggiorno'
   trigger:
@@ -3017,7 +3518,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_ven_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.friday
+      entity_id: input_boolean.friday_soggiorno
       state: 'on'
     - condition: time
       weekday: fri
@@ -3045,11 +3546,13 @@ automation:
                entity_id: input_boolean.fascia_1_soggiorno_venerdi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_venerdi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -3072,11 +3575,13 @@ automation:
                entity_id: input_boolean.fascia_2_soggiorno_venerdi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_venerdi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -3098,15 +3603,14 @@ automation:
              - condition: state
                entity_id: input_boolean.fascia_3_soggiorno_venerdi
                state: 'on'
-             - condition: state
-               entity_id: input_boolean.fascia_3_soggiorno_venerdi
-               state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_venerdi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -3129,11 +3633,13 @@ automation:
                entity_id: input_boolean.fascia_4_soggiorno_venerdi
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_venerdi_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426887'
   alias: 'ON/OFF riscaldamento Sabato fascia 1-2-3-4 soggiorno'
   trigger:
@@ -3155,7 +3661,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_sab_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.saturday
+      entity_id: input_boolean.saturday_soggiorno
       state: 'on'
     - condition: time
       weekday: sat
@@ -3183,11 +3689,13 @@ automation:
                entity_id: input_boolean.fascia_1_soggiorno_sabato
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_sabato_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -3210,11 +3718,13 @@ automation:
                entity_id: input_boolean.fascia_2_soggiorno_sabato
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_sabato_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -3237,11 +3747,13 @@ automation:
                entity_id: input_boolean.fascia_3_soggiorno_sabato
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_sabato_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -3264,11 +3776,13 @@ automation:
                entity_id: input_boolean.fascia_4_soggiorno_sabato
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_sabato_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
 - id: '159356426888'
   alias: 'ON/OFF riscaldamento Domenica fascia 1-2-3-4 soggiorno'
   trigger:
@@ -3290,7 +3804,7 @@ automation:
     value_template: "{{ states('sensor.time') == (states.input_datetime.fascia_4_dom_soggiorno_fine.attributes.timestamp | int | timestamp_custom('%H:%M', False)) }}"
   condition:
     - condition: state
-      entity_id: input_boolean.sunday
+      entity_id: input_boolean.sunday_soggiorno
       state: 'on'
     - condition: time
       weekday: sun
@@ -3318,11 +3832,13 @@ automation:
                entity_id: input_boolean.fascia_1_soggiorno_domenica
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_1_soggiorno_domenica_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 2#
          - conditions:
              - condition: template
@@ -3345,11 +3861,13 @@ automation:
                entity_id: input_boolean.fascia_2_soggiorno_domenica
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_2_soggiorno_domenica_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 3#
          - conditions:
              - condition: template
@@ -3372,11 +3890,13 @@ automation:
                entity_id: input_boolean.fascia_3_soggiorno_domenica
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_3_soggiorno_domenica_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
+               service: notify.mobile_app_poco_f2_pro
        # Se rilevata ora attivazione fascia 4#
          - conditions:
              - condition: template
@@ -3399,10 +3919,10 @@ automation:
                entity_id: input_boolean.fascia_4_soggiorno_domenica
                state: 'on'
            sequence:
-             - service: climate.turn_off
+             - service: climate.set_temperature
                entity_id: climate.termostato_soggiorno
+               data_template: 
+                 temperature: "{{ states('input_number.setpoint_fascia_4_soggiorno_domenica_fine') }}"
              - data:
                  message: Termostato soggiorno spento
-               service: notify.mobile_app_iphone_slx
-
-
+               service: notify.mobile_app_poco_f2_pro
