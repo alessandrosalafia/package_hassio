@@ -1,14 +1,22 @@
 type: entities
 entities:
-  - entity: input_boolean.monday
+  - entity: input_boolean.monday_soggiorno
     name: On/Off Lunedì
   - entity: input_number.setpoint_fascia_1_soggiorno_lunedi
     name: Fascia 1 Lun.
+  - entity: input_number.setpoint_fascia_1_soggiorno_lunedi_fine
+    name: Fascia 1 Lun. Fine
   - entity: input_number.setpoint_fascia_2_soggiorno_lunedi
     name: Fascia 2 Lun.
+  - entity: input_number.setpoint_fascia_2_soggiorno_lunedi_fine
+    name: Fascia 2 Lun. Fine
   - entity: input_number.setpoint_fascia_3_soggiorno_lunedi
     name: Fascia 3 Lun.
+  - entity: input_number.setpoint_fascia_3_soggiorno_lunedi_fine
+    name: Fascia 3 Lun. Fine
   - entity: input_number.setpoint_fascia_4_soggiorno_lunedi
     name: Fascia 4 Lun.
+  - entity: input_number.setpoint_fascia_4_soggiorno_lunedi_fine
+    name: Fascia 4 Lun. Fine
 show_header_toggle: false
 title: Setpoint Soggiorno Lunedì
